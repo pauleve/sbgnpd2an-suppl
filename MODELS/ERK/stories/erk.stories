@@ -1,0 +1,26 @@
+SET 0
+STORY 5
+glyph26,glyph27
+STORY 4
+glyph9,glyph24
+STORY 0
+glyph2,glyph14,glyph0,glyph3
+STORY 3
+glyph19,glyph20,glyph23
+STORY 1
+glyph1,glyph7
+STORY 2
+glyph10,glyph13
+
+SET 1
+STORY 3
+glyph9,glyph24
+STORY 1
+glyph10,glyph13
+STORY 4
+glyph26,glyph27
+STORY 0
+glyph0,glyph8,glyph1,glyph4,glyph2,glyph17,glyph3
+STORY 2
+glyph19,glyph20,glyph23
+

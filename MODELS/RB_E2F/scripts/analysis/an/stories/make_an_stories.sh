@@ -1,0 +1,33 @@
+SCRIPTS/sbgnpd2an/sbgnpd2an \
+ --story atm=a676,a613,a277 \
+ --story gsk3b=a663,a661 \
+ --story cdk3=a212,a215 \
+ --story p14arf=a678,a681,a881 \
+ --story p21cip=a760,sa544,sa906,sa543 \
+ --story apc=a864,a863,a855 \
+ --story mga=a157,a162 \
+ --story cdc2=sa380,a812,a809,a818,csa94,sa381,a837,a35,a803,a791,a832,a825,a836 \
+ --story cdk6=a32,a741,csa90,a757,a689,a719,a725,a697,a40,a758 \
+ --story e2f8=sa548,sa854 \
+ --story p53=a593,a671,sa558,csa96,a590,a592 \
+ --story cdk7=a634,a845,a642 \
+ --story wee1=a651,sa551 \
+ --story p27kip1=a700,a886,a887,a701 \
+ --story chek2=a588,a278 \
+ --story cdc20=a858,a856 \
+ --story dp1=a884,a885,a5 \
+ --story chek1=a614,a615 \
+ --story cdk4=a696,a752,a770,a11,a776,a740,a773,csa91,a753,a735,a45,a688,a737 \
+ --story cdk2=a34,csa97,csa98,csa89,csa99,a33,csa100,a39,a632,a713,a711,csa93,csa92,a796,a851,a849 \
+ --story hsp90=a763,a766 \
+ --story nbs1=a673,a591 \
+ --story pkmyt1=a785,a811 \
+ --story cdc25c=a815,a816,a879,sa550,sa409 \
+ --story e2f6=a916,a13,a943,sa851,a129,a51,a61,a52,a67,a929,a954,a966,a60 \
+ --story pcna=a878,a875 \
+ --story e2f1=a14,a371,a532,a602,a462,a598,a612,a890,a524,a22,a610,a231,a450,a891,a235,a30,a475,a227,a347,sa376 \
+ --story e2f4=a828,a6,a1002,a28,a365,a348,a3,a359,sa850,a979 \
+ --initial-state a3,a14,a13,sa854,a45,a40,a212,a39,a634,a35,a41,a36,a37,a38,a211,a633,a1,a4,a18,a5,a2,a815,a765,a678,a590,a651,a700,a760,a682,a691,a278,a613,a673,a665,a185,sa382,a23,sa378,a280,a874,a856,a857,a855,a635,a661,a662,a159,a875,a158,a157,a25,a309,a414,a53,a54,a944,a164,a165,a307,a308,a341,a785,a27 \
+ --names-are-ids\
+ MODELS/RB_E2F/maps/e2f_rb_no_genes.sbgn > MODELS/RB_E2F/analysis/an/stories/stories.an
+#%s/ STORY \([a-z0-9_]*\)\n\([a-z0-9,]*\)/ --story \1=\2 \\/

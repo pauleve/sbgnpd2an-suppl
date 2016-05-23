@@ -1,0 +1,1475 @@
+(* automata *)
+"a1"	[0, 1]	(* SbgnMolecule(macromolecule,a1) *)
+"a1002"	[0, 1]	(* SbgnComplex(complex,a1002) *)
+"a11"	[0, 1]	(* SbgnComplex(complex,a11) *)
+"a129"	[0, 1]	(* SbgnComplex(complex,a129) *)
+"a13"	[0, 1]	(* SbgnMolecule(macromolecule,a13) *)
+"a14"	[0, 1]	(* SbgnComplex(complex,a14) *)
+"a157"	[0, 1]	(* SbgnMolecule(macromolecule,a157) *)
+"a158"	[0, 1]	(* SbgnMolecule(macromolecule,a158) *)
+"a159"	[0, 1]	(* SbgnMolecule(macromolecule,a159) *)
+"a162"	[0, 1]	(* SbgnComplex(complex,a162) *)
+"a164"	[0, 1]	(* SbgnMolecule(macromolecule,a164) *)
+"a165"	[0, 1]	(* SbgnMolecule(macromolecule,a165) *)
+"a18"	[0, 1]	(* SbgnMolecule(macromolecule,a18) *)
+"a185"	[0, 1]	(* SbgnMolecule(macromolecule,a185) *)
+"a2"	[0, 1]	(* SbgnMolecule(macromolecule,a2) *)
+"a20"	[0, 1]	(* SbgnMolecule(macromolecule,a20) *)
+"a211"	[0, 1]	(* SbgnMolecule(macromolecule,a211) *)
+"a212"	[0, 1]	(* SbgnMolecule(macromolecule,a212) *)
+"a215"	[0, 1]	(* SbgnComplex(complex,a215) *)
+"a22"	[0, 1]	(* SbgnMolecule(macromolecule,a22) *)
+"a227"	[0, 1]	(* SbgnComplex(complex,a227) *)
+"a23"	[0, 1]	(* SbgnMolecule(macromolecule,a23) *)
+"a231"	[0, 1]	(* SbgnComplex(complex,a231) *)
+"a235"	[0, 1]	(* SbgnComplex(complex,a235) *)
+"a25"	[0, 1]	(* SbgnMolecule(macromolecule,a25) *)
+"a26"	[0, 1]	(* SbgnMolecule(macromolecule,a26) *)
+"a27"	[0, 1]	(* SbgnMolecule(macromolecule,a27) *)
+"a277"	[0, 1]	(* SbgnMolecule(macromolecule,a277) *)
+"a278"	[0, 1]	(* SbgnMolecule(macromolecule,a278) *)
+"a28"	[0, 1]	(* SbgnComplex(complex,a28) *)
+"a280"	[0, 1]	(* SbgnMolecule(macromolecule,a280) *)
+"a3"	[0, 1]	(* SbgnMolecule(macromolecule,a3) *)
+"a30"	[0, 1]	(* SbgnMolecule(macromolecule,a30) *)
+"a307"	[0, 1]	(* SbgnMolecule(macromolecule,a307) *)
+"a308"	[0, 1]	(* SbgnMolecule(macromolecule,a308) *)
+"a309"	[0, 1]	(* SbgnMolecule(macromolecule,a309) *)
+"a32"	[0, 1]	(* SbgnComplex(complex,a32) *)
+"a33"	[0, 1]	(* SbgnComplex(complex,a33) *)
+"a34"	[0, 1]	(* SbgnComplex(complex,a34) *)
+"a341"	[0, 1]	(* SbgnComplex(complex,a341) *)
+"a345"	[0, 1]	(* SbgnMolecule(macromolecule,a345) *)
+"a347"	[0, 1]	(* SbgnComplex(complex,a347) *)
+"a348"	[0, 1]	(* SbgnComplex(complex,a348) *)
+"a35"	[0, 1]	(* SbgnMolecule(macromolecule,a35) *)
+"a359"	[0, 1]	(* SbgnComplex(complex,a359) *)
+"a36"	[0, 1]	(* SbgnMolecule(macromolecule,a36) *)
+"a365"	[0, 1]	(* SbgnComplex(complex,a365) *)
+"a367"	[0, 1]	(* SbgnMolecule(macromolecule,a367) *)
+"a37"	[0, 1]	(* SbgnMolecule(macromolecule,a37) *)
+"a370"	[0, 1]	(* SbgnMolecule(macromolecule,a370) *)
+"a371"	[0, 1]	(* SbgnMolecule(macromolecule,a371) *)
+"a38"	[0, 1]	(* SbgnMolecule(macromolecule,a38) *)
+"a39"	[0, 1]	(* SbgnMolecule(macromolecule,a39) *)
+"a4"	[0, 1]	(* SbgnMolecule(macromolecule,a4) *)
+"a40"	[0, 1]	(* SbgnMolecule(macromolecule,a40) *)
+"a41"	[0, 1]	(* SbgnMolecule(macromolecule,a41) *)
+"a413"	[0, 1]	(* SbgnComplex(complex,a413) *)
+"a414"	[0, 1]	(* SbgnMolecule(macromolecule,a414) *)
+"a45"	[0, 1]	(* SbgnMolecule(macromolecule,a45) *)
+"a450"	[0, 1]	(* SbgnComplex(complex,a450) *)
+"a462"	[0, 1]	(* SbgnComplex(complex,a462) *)
+"a475"	[0, 1]	(* SbgnComplex(complex,a475) *)
+"a5"	[0, 1]	(* SbgnMolecule(macromolecule,a5) *)
+"a51"	[0, 1]	(* SbgnComplex(complex,a51) *)
+"a52"	[0, 1]	(* SbgnComplex(complex,a52) *)
+"a524"	[0, 1]	(* SbgnComplex(complex,a524) *)
+"a529"	[0, 1]	(* SbgnMolecule(macromolecule,a529) *)
+"a53"	[0, 1]	(* SbgnMolecule(macromolecule,a53) *)
+"a532"	[0, 1]	(* SbgnComplex(complex,a532) *)
+"a54"	[0, 1]	(* SbgnMolecule(macromolecule,a54) *)
+"a588"	[0, 1]	(* SbgnMolecule(macromolecule,a588) *)
+"a589"	[0, 1]	(* SbgnMolecule(macromolecule,a589) *)
+"a590"	[0, 1]	(* SbgnMolecule(macromolecule,a590) *)
+"a591"	[0, 1]	(* SbgnMolecule(macromolecule,a591) *)
+"a592"	[0, 1]	(* SbgnMolecule(macromolecule,a592) *)
+"a593"	[0, 1]	(* SbgnMolecule(macromolecule,a593) *)
+"a598"	[0, 1]	(* SbgnComplex(complex,a598) *)
+"a6"	[0, 1]	(* SbgnComplex(complex,a6) *)
+"a60"	[0, 1]	(* SbgnComplex(complex,a60) *)
+"a602"	[0, 1]	(* SbgnComplex(complex,a602) *)
+"a61"	[0, 1]	(* SbgnComplex(complex,a61) *)
+"a610"	[0, 1]	(* SbgnComplex(complex,a610) *)
+"a612"	[0, 1]	(* SbgnComplex(complex,a612) *)
+"a613"	[0, 1]	(* SbgnMolecule(macromolecule,a613) *)
+"a614"	[0, 1]	(* SbgnMolecule(macromolecule,a614) *)
+"a615"	[0, 1]	(* SbgnMolecule(macromolecule,a615) *)
+"a632"	[0, 1]	(* SbgnComplex(complex,a632) *)
+"a633"	[0, 1]	(* SbgnMolecule(macromolecule,a633) *)
+"a634"	[0, 1]	(* SbgnMolecule(macromolecule,a634) *)
+"a635"	[0, 1]	(* SbgnMolecule(macromolecule,a635) *)
+"a642"	[0, 1]	(* SbgnComplex(complex,a642) *)
+"a651"	[0, 1]	(* SbgnMolecule(macromolecule,a651) *)
+"a661"	[0, 1]	(* SbgnMolecule(macromolecule,a661) *)
+"a662"	[0, 1]	(* SbgnMolecule(macromolecule,a662) *)
+"a663"	[0, 1]	(* SbgnMolecule(macromolecule,a663) *)
+"a665"	[0, 1]	(* SbgnMolecule(macromolecule,a665) *)
+"a67"	[0, 1]	(* SbgnComplex(complex,a67) *)
+"a671"	[0, 1]	(* SbgnComplex(complex,a671) *)
+"a672"	[0, 1]	(* SbgnMolecule(macromolecule,a672) *)
+"a673"	[0, 1]	(* SbgnMolecule(macromolecule,a673) *)
+"a676"	[0, 1]	(* SbgnComplex(complex,a676) *)
+"a678"	[0, 1]	(* SbgnMolecule(macromolecule,a678) *)
+"a681"	[0, 1]	(* SbgnComplex(complex,a681) *)
+"a682"	[0, 1]	(* SbgnMolecule(macromolecule,a682) *)
+"a688"	[0, 1]	(* SbgnComplex(complex,a688) *)
+"a689"	[0, 1]	(* SbgnComplex(complex,a689) *)
+"a690"	[0, 1]	(* SbgnMolecule(macromolecule,a690) *)
+"a691"	[0, 1]	(* SbgnMolecule(macromolecule,a691) *)
+"a696"	[0, 1]	(* SbgnComplex(complex,a696) *)
+"a697"	[0, 1]	(* SbgnComplex(complex,a697) *)
+"a7"	[0, 1]	(* SbgnMolecule(macromolecule,a7) *)
+"a700"	[0, 1]	(* SbgnMolecule(macromolecule,a700) *)
+"a701"	[0, 1]	(* SbgnMolecule(macromolecule,a701) *)
+"a711"	[0, 1]	(* SbgnComplex(complex,a711) *)
+"a713"	[0, 1]	(* SbgnComplex(complex,a713) *)
+"a719"	[0, 1]	(* SbgnComplex(complex,a719) *)
+"a725"	[0, 1]	(* SbgnComplex(complex,a725) *)
+"a735"	[0, 1]	(* SbgnComplex(complex,a735) *)
+"a737"	[0, 1]	(* SbgnComplex(complex,a737) *)
+"a740"	[0, 1]	(* SbgnComplex(complex,a740) *)
+"a741"	[0, 1]	(* SbgnComplex(complex,a741) *)
+"a752"	[0, 1]	(* SbgnComplex(complex,a752) *)
+"a753"	[0, 1]	(* SbgnComplex(complex,a753) *)
+"a757"	[0, 1]	(* SbgnComplex(complex,a757) *)
+"a758"	[0, 1]	(* SbgnComplex(complex,a758) *)
+"a760"	[0, 1]	(* SbgnMolecule(macromolecule,a760) *)
+"a763"	[0, 1]	(* SbgnMolecule(macromolecule,a763) *)
+"a765"	[0, 1]	(* SbgnMolecule(macromolecule,a765) *)
+"a766"	[0, 1]	(* SbgnMolecule(macromolecule multimer,a766) *)
+"a770"	[0, 1]	(* SbgnComplex(complex,a770) *)
+"a773"	[0, 1]	(* SbgnMolecule(macromolecule,a773) *)
+"a776"	[0, 1]	(* SbgnComplex(complex,a776) *)
+"a781"	[0, 1]	(* SbgnComplex(complex,a781) *)
+"a785"	[0, 1]	(* SbgnMolecule(macromolecule,a785) *)
+"a791"	[0, 1]	(* SbgnComplex(complex,a791) *)
+"a796"	[0, 1]	(* SbgnComplex(complex,a796) *)
+"a803"	[0, 1]	(* SbgnComplex(complex,a803) *)
+"a809"	[0, 1]	(* SbgnComplex(complex,a809) *)
+"a811"	[0, 1]	(* SbgnMolecule(macromolecule,a811) *)
+"a812"	[0, 1]	(* SbgnComplex(complex,a812) *)
+"a815"	[0, 1]	(* SbgnMolecule(macromolecule,a815) *)
+"a816"	[0, 1]	(* SbgnMolecule(macromolecule,a816) *)
+"a818"	[0, 1]	(* SbgnComplex(complex,a818) *)
+"a825"	[0, 1]	(* SbgnComplex(complex,a825) *)
+"a828"	[0, 1]	(* SbgnComplex(complex,a828) *)
+"a832"	[0, 1]	(* SbgnComplex(complex,a832) *)
+"a836"	[0, 1]	(* SbgnComplex(complex,a836) *)
+"a837"	[0, 1]	(* SbgnComplex(complex,a837) *)
+"a838"	[0, 1]	(* SbgnMolecule(macromolecule,a838) *)
+"a845"	[0, 1]	(* SbgnComplex(complex,a845) *)
+"a849"	[0, 1]	(* SbgnComplex(complex,a849) *)
+"a851"	[0, 1]	(* SbgnMolecule(macromolecule,a851) *)
+"a852"	[0, 1]	(* SbgnMolecule(macromolecule,a852) *)
+"a855"	[0, 1]	(* SbgnMolecule(macromolecule,a855) *)
+"a856"	[0, 1]	(* SbgnMolecule(macromolecule,a856) *)
+"a857"	[0, 1]	(* SbgnMolecule(macromolecule,a857) *)
+"a858"	[0, 1]	(* SbgnMolecule(macromolecule,a858) *)
+"a863"	[0, 1]	(* SbgnComplex(complex,a863) *)
+"a864"	[0, 1]	(* SbgnComplex(complex,a864) *)
+"a869"	[0, 1]	(* SbgnMolecule(macromolecule,a869) *)
+"a871"	[0, 1]	(* SbgnMolecule(macromolecule,a871) *)
+"a874"	[0, 1]	(* SbgnMolecule(macromolecule,a874) *)
+"a875"	[0, 1]	(* SbgnMolecule(macromolecule,a875) *)
+"a878"	[0, 1]	(* SbgnComplex(complex,a878) *)
+"a879"	[0, 1]	(* SbgnMolecule(macromolecule,a879) *)
+"a881"	[0, 1]	(* SbgnComplex(complex,a881) *)
+"a884"	[0, 1]	(* SbgnComplex(complex,a884) *)
+"a885"	[0, 1]	(* SbgnComplex(complex,a885) *)
+"a886"	[0, 1]	(* SbgnMolecule(macromolecule,a886) *)
+"a887"	[0, 1]	(* SbgnMolecule(macromolecule,a887) *)
+"a890"	[0, 1]	(* SbgnComplex(complex,a890) *)
+"a891"	[0, 1]	(* SbgnComplex(complex,a891) *)
+"a916"	[0, 1]	(* SbgnComplex(complex,a916) *)
+"a929"	[0, 1]	(* SbgnComplex(complex,a929) *)
+"a943"	[0, 1]	(* SbgnComplex(complex,a943) *)
+"a944"	[0, 1]	(* SbgnMolecule(macromolecule,a944) *)
+"a954"	[0, 1]	(* SbgnComplex(complex,a954) *)
+"a966"	[0, 1]	(* SbgnComplex(complex,a966) *)
+"a979"	[0, 1]	(* SbgnComplex(complex,a979) *)
+"a98"	[0, 1]	(* SbgnComplex(complex,a98) *)
+"csa100"	[0, 1]	(* SbgnComplex(complex,csa100) *)
+"csa89"	[0, 1]	(* SbgnComplex(complex,csa89) *)
+"csa90"	[0, 1]	(* SbgnComplex(complex,csa90) *)
+"csa91"	[0, 1]	(* SbgnComplex(complex,csa91) *)
+"csa92"	[0, 1]	(* SbgnComplex(complex,csa92) *)
+"csa93"	[0, 1]	(* SbgnComplex(complex,csa93) *)
+"csa94"	[0, 1]	(* SbgnComplex(complex,csa94) *)
+"csa96"	[0, 1]	(* SbgnComplex(complex,csa96) *)
+"csa97"	[0, 1]	(* SbgnComplex(complex,csa97) *)
+"csa98"	[0, 1]	(* SbgnComplex(complex,csa98) *)
+"csa99"	[0, 1]	(* SbgnComplex(complex,csa99) *)
+"pnre100"	[0, 1]	(* SbgnProcess(process,pnre100) *)
+"pnre111"	[0, 1]	(* SbgnProcess(process,pnre111) *)
+"pnre112"	[0, 1]	(* SbgnProcess(process,pnre112) *)
+"pnre113"	[0, 1]	(* SbgnProcess(process,pnre113) *)
+"pnre121"	[0, 1]	(* SbgnProcess(process,pnre121) *)
+"pnre122"	[0, 1]	(* SbgnProcess(process,pnre122) *)
+"pnre1272"	[0, 1]	(* SbgnProcess(process,pnre1272) *)
+"pnre1273"	[0, 1]	(* SbgnProcess(process,pnre1273) *)
+"pnre1274"	[0, 1]	(* SbgnProcess(process,pnre1274) *)
+"pnre1275"	[0, 1]	(* SbgnProcess(process,pnre1275) *)
+"pnre1276"	[0, 1]	(* SbgnProcess(process,pnre1276) *)
+"pnre130"	[0, 1]	(* SbgnProcess(process,pnre130) *)
+"pnre132"	[0, 1]	(* SbgnProcess(process,pnre132) *)
+"pnre135"	[0, 1]	(* SbgnProcess(process,pnre135) *)
+"pnre139"	[0, 1]	(* SbgnProcess(process,pnre139) *)
+"pnre141"	[0, 1]	(* SbgnProcess(process,pnre141) *)
+"pnre142"	[0, 1]	(* SbgnProcess(process,pnre142) *)
+"pnre147"	[0, 1]	(* SbgnProcess(process,pnre147) *)
+"pnre148"	[0, 1]	(* SbgnProcess(process,pnre148) *)
+"pnre155"	[0, 1]	(* SbgnProcess(process,pnre155) *)
+"pnre157"	[0, 1]	(* SbgnProcess(process,pnre157) *)
+"pnre158"	[0, 1]	(* SbgnProcess(process,pnre158) *)
+"pnre159"	[0, 1]	(* SbgnProcess(process,pnre159) *)
+"pnre16"	[0, 1]	(* SbgnProcess(process,pnre16) *)
+"pnre160"	[0, 1]	(* SbgnProcess(process,pnre160) *)
+"pnre164"	[0, 1]	(* SbgnProcess(process,pnre164) *)
+"pnre165"	[0, 1]	(* SbgnProcess(process,pnre165) *)
+"pnre166"	[0, 1]	(* SbgnProcess(process,pnre166) *)
+"pnre167"	[0, 1]	(* SbgnProcess(process,pnre167) *)
+"pnre168"	[0, 1]	(* SbgnProcess(process,pnre168) *)
+"pnre169"	[0, 1]	(* SbgnProcess(process,pnre169) *)
+"pnre170"	[0, 1]	(* SbgnProcess(process,pnre170) *)
+"pnre171"	[0, 1]	(* SbgnProcess(process,pnre171) *)
+"pnre174"	[0, 1]	(* SbgnProcess(process,pnre174) *)
+"pnre175"	[0, 1]	(* SbgnProcess(process,pnre175) *)
+"pnre178"	[0, 1]	(* SbgnProcess(process,pnre178) *)
+"pnre179"	[0, 1]	(* SbgnProcess(process,pnre179) *)
+"pnre180"	[0, 1]	(* SbgnProcess(process,pnre180) *)
+"pnre181"	[0, 1]	(* SbgnProcess(process,pnre181) *)
+"pnre186"	[0, 1]	(* SbgnProcess(process,pnre186) *)
+"pnre187"	[0, 1]	(* SbgnProcess(process,pnre187) *)
+"pnre188"	[0, 1]	(* SbgnProcess(process,pnre188) *)
+"pnre189"	[0, 1]	(* SbgnProcess(process,pnre189) *)
+"pnre190"	[0, 1]	(* SbgnProcess(process,pnre190) *)
+"pnre191"	[0, 1]	(* SbgnProcess(process,pnre191) *)
+"pnre192"	[0, 1]	(* SbgnProcess(process,pnre192) *)
+"pnre193"	[0, 1]	(* SbgnProcess(process,pnre193) *)
+"pnre194"	[0, 1]	(* SbgnProcess(process,pnre194) *)
+"pnre195"	[0, 1]	(* SbgnProcess(process,pnre195) *)
+"pnre2"	[0, 1]	(* SbgnProcess(process,pnre2) *)
+"pnre208"	[0, 1]	(* SbgnProcess(process,pnre208) *)
+"pnre212"	[0, 1]	(* SbgnProcess(process,pnre212) *)
+"pnre213"	[0, 1]	(* SbgnProcess(process,pnre213) *)
+"pnre216"	[0, 1]	(* SbgnProcess(process,pnre216) *)
+"pnre217"	[0, 1]	(* SbgnProcess(process,pnre217) *)
+"pnre218"	[0, 1]	(* SbgnProcess(process,pnre218) *)
+"pnre219"	[0, 1]	(* SbgnProcess(process,pnre219) *)
+"pnre220"	[0, 1]	(* SbgnProcess(process,pnre220) *)
+"pnre221"	[0, 1]	(* SbgnProcess(process,pnre221) *)
+"pnre222"	[0, 1]	(* SbgnProcess(process,pnre222) *)
+"pnre223"	[0, 1]	(* SbgnProcess(process,pnre223) *)
+"pnre224"	[0, 1]	(* SbgnProcess(process,pnre224) *)
+"pnre225"	[0, 1]	(* SbgnProcess(process,pnre225) *)
+"pnre226"	[0, 1]	(* SbgnProcess(process,pnre226) *)
+"pnre227"	[0, 1]	(* SbgnProcess(process,pnre227) *)
+"pnre228"	[0, 1]	(* SbgnProcess(process,pnre228) *)
+"pnre229"	[0, 1]	(* SbgnProcess(process,pnre229) *)
+"pnre23"	[0, 1]	(* SbgnProcess(process,pnre23) *)
+"pnre230"	[0, 1]	(* SbgnProcess(process,pnre230) *)
+"pnre232"	[0, 1]	(* SbgnProcess(process,pnre232) *)
+"pnre233"	[0, 1]	(* SbgnProcess(process,pnre233) *)
+"pnre234"	[0, 1]	(* SbgnProcess(process,pnre234) *)
+"pnre235"	[0, 1]	(* SbgnProcess(process,pnre235) *)
+"pnre236"	[0, 1]	(* SbgnProcess(process,pnre236) *)
+"pnre237"	[0, 1]	(* SbgnProcess(process,pnre237) *)
+"pnre238"	[0, 1]	(* SbgnProcess(process,pnre238) *)
+"pnre239"	[0, 1]	(* SbgnProcess(process,pnre239) *)
+"pnre24"	[0, 1]	(* SbgnProcess(process,pnre24) *)
+"pnre241"	[0, 1]	(* SbgnProcess(process,pnre241) *)
+"pnre242"	[0, 1]	(* SbgnProcess(process,pnre242) *)
+"pnre243"	[0, 1]	(* SbgnProcess(process,pnre243) *)
+"pnre245"	[0, 1]	(* SbgnProcess(process,pnre245) *)
+"pnre247"	[0, 1]	(* SbgnProcess(process,pnre247) *)
+"pnre248"	[0, 1]	(* SbgnProcess(process,pnre248) *)
+"pnre250"	[0, 1]	(* SbgnProcess(process,pnre250) *)
+"pnre251"	[0, 1]	(* SbgnProcess(process,pnre251) *)
+"pnre253"	[0, 1]	(* SbgnProcess(process,pnre253) *)
+"pnre254"	[0, 1]	(* SbgnProcess(process,pnre254) *)
+"pnre255"	[0, 1]	(* SbgnProcess(process,pnre255) *)
+"pnre258"	[0, 1]	(* SbgnProcess(process,pnre258) *)
+"pnre26"	[0, 1]	(* SbgnProcess(process,pnre26) *)
+"pnre261"	[0, 1]	(* SbgnProcess(process,pnre261) *)
+"pnre262"	[0, 1]	(* SbgnProcess(process,pnre262) *)
+"pnre264"	[0, 1]	(* SbgnProcess(process,pnre264) *)
+"pnre265"	[0, 1]	(* SbgnProcess(process,pnre265) *)
+"pnre266"	[0, 1]	(* SbgnProcess(process,pnre266) *)
+"pnre268"	[0, 1]	(* SbgnProcess(process,pnre268) *)
+"pnre269"	[0, 1]	(* SbgnProcess(process,pnre269) *)
+"pnre27"	[0, 1]	(* SbgnProcess(process,pnre27) *)
+"pnre270"	[0, 1]	(* SbgnProcess(process,pnre270) *)
+"pnre271"	[0, 1]	(* SbgnProcess(process,pnre271) *)
+"pnre273"	[0, 1]	(* SbgnProcess(process,pnre273) *)
+"pnre275"	[0, 1]	(* SbgnProcess(process,pnre275) *)
+"pnre281"	[0, 1]	(* SbgnProcess(process,pnre281) *)
+"pnre283"	[0, 1]	(* SbgnProcess(process,pnre283) *)
+"pnre284"	[0, 1]	(* SbgnProcess(process,pnre284) *)
+"pnre285"	[0, 1]	(* SbgnProcess(process,pnre285) *)
+"pnre286"	[0, 1]	(* SbgnProcess(process,pnre286) *)
+"pnre287"	[0, 1]	(* SbgnProcess(process,pnre287) *)
+"pnre288"	[0, 1]	(* SbgnProcess(process,pnre288) *)
+"pnre289"	[0, 1]	(* SbgnProcess(process,pnre289) *)
+"pnre290"	[0, 1]	(* SbgnProcess(process,pnre290) *)
+"pnre291"	[0, 1]	(* SbgnProcess(process,pnre291) *)
+"pnre292"	[0, 1]	(* SbgnProcess(process,pnre292) *)
+"pnre297"	[0, 1]	(* SbgnProcess(process,pnre297) *)
+"pnre298"	[0, 1]	(* SbgnProcess(process,pnre298) *)
+"pnre306"	[0, 1]	(* SbgnProcess(process,pnre306) *)
+"pnre307"	[0, 1]	(* SbgnProcess(process,pnre307) *)
+"pnre308"	[0, 1]	(* SbgnProcess(process,pnre308) *)
+"pnre31"	[0, 1]	(* SbgnProcess(process,pnre31) *)
+"pnre310"	[0, 1]	(* SbgnProcess(process,pnre310) *)
+"pnre317"	[0, 1]	(* SbgnProcess(process,pnre317) *)
+"pnre320"	[0, 1]	(* SbgnProcess(process,pnre320) *)
+"pnre322"	[0, 1]	(* SbgnProcess(process,pnre322) *)
+"pnre323"	[0, 1]	(* SbgnProcess(process,pnre323) *)
+"pnre324"	[0, 1]	(* SbgnProcess(process,pnre324) *)
+"pnre325"	[0, 1]	(* SbgnProcess(process,pnre325) *)
+"pnre326"	[0, 1]	(* SbgnProcess(process,pnre326) *)
+"pnre327"	[0, 1]	(* SbgnProcess(process,pnre327) *)
+"pnre328"	[0, 1]	(* SbgnProcess(process,pnre328) *)
+"pnre329"	[0, 1]	(* SbgnProcess(process,pnre329) *)
+"pnre330"	[0, 1]	(* SbgnProcess(process,pnre330) *)
+"pnre35"	[0, 1]	(* SbgnProcess(process,pnre35) *)
+"pnre41"	[0, 1]	(* SbgnProcess(process,pnre41) *)
+"pnre55"	[0, 1]	(* SbgnProcess(process,pnre55) *)
+"pnre60"	[0, 1]	(* SbgnProcess(process,pnre60) *)
+"pnre604"	[0, 1]	(* SbgnProcess(process,pnre604) *)
+"pnre605"	[0, 1]	(* SbgnProcess(process,pnre605) *)
+"pnre618"	[0, 1]	(* SbgnProcess(process,pnre618) *)
+"pnre621"	[0, 1]	(* SbgnProcess(process,pnre621) *)
+"pnre622"	[0, 1]	(* SbgnProcess(process,pnre622) *)
+"pnre623"	[0, 1]	(* SbgnProcess(process,pnre623) *)
+"pnre624"	[0, 1]	(* SbgnProcess(process,pnre624) *)
+"pnre64"	[0, 1]	(* SbgnProcess(process,pnre64) *)
+"pnre71"	[0, 1]	(* SbgnProcess(process,pnre71) *)
+"pnre8"	[0, 1]	(* SbgnProcess(process,pnre8) *)
+"pnre86"	[0, 1]	(* SbgnProcess(process,pnre86) *)
+"pnre87"	[0, 1]	(* SbgnProcess(process,pnre87) *)
+"pnre88"	[0, 1]	(* SbgnProcess(process,pnre88) *)
+"pnre91"	[0, 1]	(* SbgnProcess(process,pnre91) *)
+"pnre92"	[0, 1]	(* SbgnProcess(process,pnre92) *)
+"pnre94"	[0, 1]	(* SbgnProcess(process,pnre94) *)
+"pnre95"	[0, 1]	(* SbgnProcess(process,pnre95) *)
+"pnre96"	[0, 1]	(* SbgnProcess(process,pnre96) *)
+"pnre97"	[0, 1]	(* SbgnProcess(process,pnre97) *)
+"pnre98"	[0, 1]	(* SbgnProcess(process,pnre98) *)
+"pnre99"	[0, 1]	(* SbgnProcess(process,pnre99) *)
+"sa376"	[0, 1]	(* SbgnMolecule(macromolecule,sa376) *)
+"sa378"	[0, 1]	(* SbgnMolecule(macromolecule,sa378) *)
+"sa380"	[0, 1]	(* SbgnMolecule(macromolecule,sa380) *)
+"sa381"	[0, 1]	(* SbgnMolecule(macromolecule,sa381) *)
+"sa382"	[0, 1]	(* SbgnMolecule(macromolecule,sa382) *)
+"sa409"	[0, 1]	(* SbgnMolecule(macromolecule,sa409) *)
+"sa543"	[0, 1]	(* SbgnMolecule(macromolecule,sa543) *)
+"sa544"	[0, 1]	(* SbgnMolecule(macromolecule,sa544) *)
+"sa548"	[0, 1]	(* SbgnMolecule(macromolecule multimer,sa548) *)
+"sa550"	[0, 1]	(* SbgnMolecule(macromolecule,sa550) *)
+"sa551"	[0, 1]	(* SbgnMolecule(macromolecule,sa551) *)
+"sa558"	[0, 1]	(* SbgnMolecule(macromolecule,sa558) *)
+"sa561"	[0, 1]	(* SbgnMolecule(macromolecule,sa561) *)
+"sa562"	[0, 1]	(* SbgnMolecule(macromolecule,sa562) *)
+"sa850"	[0, 1]	(* SbgnMolecule(macromolecule,sa850) *)
+"sa851"	[0, 1]	(* SbgnMolecule(macromolecule,sa851) *)
+"sa852"	[0, 1]	(* SbgnMolecule(macromolecule,sa852) *)
+"sa853"	[0, 1]	(* SbgnMolecule(macromolecule,sa853) *)
+"sa854"	[0, 1]	(* SbgnMolecule(macromolecule,sa854) *)
+"sa904"	[0, 1]	(* SbgnMolecule(macromolecule,sa904) *)
+"sa905"	[0, 1]	(* SbgnMolecule(macromolecule,sa905) *)
+"sa906"	[0, 1]	(* SbgnMolecule(macromolecule,sa906) *)
+
+(* transitions *)
+
+"a1" 1 -> 0 when "a6"=1 and "pnre223"=1
+
+"a1002" 0 -> 1 when "pnre289"=1
+"a1002" 1 -> 0 when "a25"=1 and "a27"=1 and "a309"=1 and "a348"=1 and "a7"=1 and "pnre290"=1
+
+"a11" 0 -> 1 when "pnre193"=1
+"a11" 1 -> 0 when "a740"=1 and "pnre178"=1
+
+"a129" 0 -> 1 when "pnre297"=1
+
+"a13" 0 -> 1 when "pnre618"=1
+"a13" 1 -> 0 when "a60"=1 and "pnre88"=1
+"a13" 1 -> 0 when "a51"=1 and "pnre23"=1
+
+"a14" 0 -> 1 when "pnre97"=1
+"a14" 1 -> 0 when "a450"=1 and "pnre112"=1
+
+"a157" 1 -> 0 when "a162"=1 and "pnre41"=1
+
+"a158" 1 -> 0 when "a162"=1 and "pnre41"=1
+
+"a159" 1 -> 0 when "a475"=1 and "pnre113"=1
+"a159" 1 -> 0 when "a943"=1 and "pnre284"=1
+
+"a162" 0 -> 1 when "pnre41"=1
+"a162" 1 -> 0 when "a916"=1 and "pnre285"=1
+
+"a164" 1 -> 0 when "a929"=1 and "pnre283"=1
+
+"a165" 1 -> 0 when "a929"=1 and "pnre283"=1
+
+"a18" 0 -> 1 when "pnre35"=1
+"a18" 1 -> 0 when "a14"=1 and "pnre97"=1
+
+"a2" 0 -> 1 when "pnre96"=1
+"a2" 1 -> 0 when "a828"=1 and "pnre222"=1
+"a2" 1 -> 0 when "a51"=1 and "pnre23"=1
+
+"a20" 0 -> 1 when "pnre291"=1
+"a20" 1 -> 0 when "a18"=1 and "pnre35"=1
+
+"a211" 1 -> 0 when "a215"=1 and "pnre308"=1
+
+"a212" 1 -> 0 when "a215"=1 and "pnre308"=1
+
+"a215" 0 -> 1 when "pnre308"=1
+
+"a22" 0 -> 1 when "pnre99"=1
+"a22" 1 -> 0 when "a678"=1
+"a22" 1 -> 0 when "a890"=1 and "pnre275"=1
+"a22" 1 -> 0 when "a235"=1 and "pnre60"=1
+"a22" 1 -> 0 when "pnre317"=1 and "sa376"=1
+
+"a227" 0 -> 1 when "pnre55"=1
+"a227" 1 -> 0 when "a347"=1 and "pnre86"=1
+"a227" 1 -> 0 when "a23"=1 and "a602"=1 and "pnre621"=1
+"a227" 1 -> 0 when "a23"=1 and "a610"=1 and "pnre622"=1
+
+"a23" 0 -> 1 when "pnre621"=1
+"a23" 0 -> 1 when "pnre622"=1
+"a23" 0 -> 1 when "pnre87"=1
+"a23" 1 -> 0 when "a227"=1 and "pnre55"=1
+
+"a231" 0 -> 1 when "pnre64"=1
+"a231" 1 -> 0 when "a227"=1 and "pnre55"=1
+"a231" 1 -> 0 when "a235"=1 and "pnre292"=1
+
+"a235" 0 -> 1 when "pnre291"=1
+"a235" 0 -> 1 when "pnre292"=1
+"a235" 0 -> 1 when "pnre60"=1
+"a235" 1 -> 0 when "a231"=1 and "pnre64"=1
+"a235" 1 -> 0 when "a14"=1 and "pnre97"=1
+
+"a25" 0 -> 1 when "pnre290"=1
+"a25" 1 -> 0 when "a966"=1 and "pnre287"=1
+"a25" 1 -> 0 when "a98"=1 and "pnre31"=1
+
+"a26" 0 -> 1 when "pnre100"=1
+"a26" 0 -> 1 when "pnre2"=1
+"a26" 1 -> 0 when "a235"=1 and "pnre60"=1
+
+"a27" 0 -> 1 when "pnre290"=1
+"a27" 0 -> 1 when "pnre298"=1
+"a27" 1 -> 0 when "a450"=1 and "pnre112"=1
+"a27" 1 -> 0 when "a98"=1 and "pnre31"=1
+
+"a277" 0 -> 1 when "pnre141"=1
+"a277" 1 -> 0 when "a676"=1 and "pnre160"=1
+
+"a278" 1 -> 0 when "a588"=1 and "pnre130"=1
+
+"a28" 0 -> 1 when "pnre8"=1
+"a28" 1 -> 0 when "a979"=1 and "pnre288"=1
+
+"a280" 1 -> 0 when "a612"=1 and "pnre139"=1
+
+"a3" 0 -> 1 when "pnre95"=1
+"a3" 1 -> 0 when "a828"=1 and "pnre222"=1
+
+"a30" 0 -> 1 when "pnre87"=1
+"a30" 1 -> 0 when "a371"=1 and "pnre98"=1
+
+"a309" 0 -> 1 when "pnre290"=1
+"a309" 1 -> 0 when "a462"=1 and "pnre111"=1
+"a309" 1 -> 0 when "a979"=1 and "pnre288"=1
+
+"a32" 0 -> 1 when "pnre16"=1
+"a32" 1 -> 0 when "a741"=1 and "pnre179"=1
+
+"a33" 0 -> 1 when "pnre307"=1
+"a33" 1 -> 0 when "csa89"=1 and "pnre310"=1
+"a33" 1 -> 0 when "csa93"=1 and "pnre326"=1
+"a33" 1 -> 0 when "csa97"=1 and "pnre1273"=1
+"a33" 1 -> 0 when "csa98"=1 and "pnre1274"=1
+"a33" 1 -> 0 when "a713"=1 and "pnre171"=1
+
+"a34" 0 -> 1 when "pnre306"=1
+"a34" 1 -> 0 when "a796"=1 and "pnre329"=1
+"a34" 1 -> 0 when "a632"=1 and "pnre147"=1
+"a34" 1 -> 0 when "a711"=1 and "pnre170"=1
+
+"a341" 1 -> 0 when "a129"=1 and "pnre297"=1
+
+"a345" 0 -> 1 when "pnre87"=1
+"a345" 1 -> 0 when "a26"=1 and "pnre100"=1
+
+"a347" 0 -> 1 when "pnre86"=1
+"a347" 1 -> 0 when "a23"=1 and "a30"=1 and "a345"=1 and "pnre87"=1
+
+"a348" 0 -> 1 when "pnre290"=1
+"a348" 1 -> 0 when "a359"=1 and "pnre91"=1
+
+"a35" 1 -> 0 when "a809"=1 and "pnre221"=1
+
+"a359" 0 -> 1 when "pnre91"=1
+"a359" 1 -> 0 when "a365"=1 and "pnre92"=1
+
+"a36" 1 -> 0 when "a809"=1 and "pnre221"=1
+
+"a365" 0 -> 1 when "pnre92"=1
+"a365" 1 -> 0 when "a367"=1 and "a370"=1 and "pnre94"=1 and "sa850"=1
+
+"a367" 0 -> 1 when "pnre94"=1
+
+"a37" 1 -> 0 when "a34"=1 and "pnre306"=1
+
+"a370" 0 -> 1 when "pnre94"=1
+"a370" 1 -> 0 when "a2"=1 and "pnre96"=1
+
+"a371" 0 -> 1 when "pnre98"=1
+"a371" 1 -> 0 when "a22"=1 and "pnre99"=1
+
+"a38" 1 -> 0 when "a863"=1
+"a38" 1 -> 0 when "a864"=1
+"a38" 1 -> 0 when "a33"=1 and "pnre307"=1
+
+"a39" 0 -> 1 when "pnre251"=1
+"a39" 1 -> 0 when "a34"=1 and "pnre306"=1
+"a39" 1 -> 0 when "a33"=1 and "pnre307"=1
+
+"a4" 1 -> 0 when "csa97"=1 and "pnre1273"=1
+"a4" 1 -> 0 when "csa100"=1 and "pnre1275"=1
+"a4" 1 -> 0 when "a359"=1 and "pnre91"=1
+
+"a40" 0 -> 1 when "pnre243"=1
+"a40" 1 -> 0 when "a32"=1 and "pnre16"=1
+"a40" 1 -> 0 when "a689"=1 and "pnre166"=1
+"a40" 1 -> 0 when "a697"=1 and "pnre168"=1
+
+"a41" 1 -> 0 when "a11"=1 and "pnre193"=1
+"a41" 1 -> 0 when "a32"=1 and "pnre16"=1
+
+"a413" 0 -> 1 when "pnre122"=1
+
+"a414" 1 -> 0 when "a450"=1 and "pnre112"=1
+
+"a45" 1 -> 0 when "a696"=1 and "pnre167"=1
+"a45" 1 -> 0 when "a688"=1 and "pnre165"=1
+"a45" 1 -> 0 when "a776"=1 and "pnre191"=1
+
+"a450" 0 -> 1 when "pnre112"=1
+"a450" 0 -> 1 when "pnre122"=1
+"a450" 1 -> 0 when "a462"=1 and "pnre111"=1
+"a450" 1 -> 0 when "a524"=1 and "pnre121"=1
+
+"a462" 0 -> 1 when "pnre111"=1
+"a462" 1 -> 0 when "a475"=1 and "pnre113"=1
+
+"a475" 0 -> 1 when "pnre113"=1
+"a475" 1 -> 0 when "a413"=1 and "a450"=1 and "pnre122"=1
+
+"a5" 1 -> 0 when "a26"=1 and "pnre2"=1
+"a5" 1 -> 0 when "a60"=1 and "pnre88"=1
+"a5" 1 -> 0 when "a884"=1 and "pnre271"=1
+
+"a51" 0 -> 1 when "pnre23"=1
+"a51" 1 -> 0 when "a52"=1 and "pnre24"=1
+
+"a52" 0 -> 1 when "pnre24"=1
+"a52" 1 -> 0 when "a129"=1 and "pnre297"=1
+
+"a524" 0 -> 1 when "pnre121"=1
+"a524" 1 -> 0 when "a27"=1 and "a532"=1 and "pnre298"=1
+
+"a529" 0 -> 1 when "pnre323"=1
+
+"a53" 1 -> 0 when "a67"=1 and "pnre27"=1
+
+"a532" 0 -> 1 when "pnre298"=1
+"a532" 1 -> 0 when "a529"=1 and "a598"=1 and "pnre323"=1
+
+"a54" 1 -> 0 when "a954"=1 and "pnre286"=1
+
+"a588" 0 -> 1 when "pnre130"=1
+
+"a590" 1 -> 0 when "a592"=1 and "pnre132"=1
+"a590" 1 -> 0 when "a671"=1 and "pnre157"=1
+
+"a591" 0 -> 1 when "pnre159"=1
+"a591" 1 -> 0 when "a676"=1 and "pnre160"=1
+
+"a592" 0 -> 1 when "pnre132"=1
+"a592" 1 -> 0 when "a593"=1 and "pnre135"=1
+
+"a593" 0 -> 1 when "pnre135"=1
+
+"a598" 0 -> 1 when "pnre323"=1
+"a598" 1 -> 0 when "a20"=1 and "a235"=1 and "pnre291"=1
+
+"a6" 0 -> 1 when "pnre223"=1
+"a6" 1 -> 0 when "a28"=1 and "pnre8"=1
+
+"a60" 0 -> 1 when "pnre88"=1
+"a60" 1 -> 0 when "a61"=1 and "pnre26"=1
+
+"a602" 0 -> 1 when "pnre621"=1
+
+"a61" 0 -> 1 when "pnre26"=1
+"a61" 1 -> 0 when "a916"=1 and "pnre285"=1
+"a61" 1 -> 0 when "a67"=1 and "pnre27"=1
+
+"a610" 0 -> 1 when "pnre622"=1
+"a610" 1 -> 0 when "a612"=1 and "pnre139"=1
+
+"a612" 0 -> 1 when "pnre139"=1
+
+"a613" 1 -> 0 when "a277"=1 and "pnre141"=1
+
+"a614" 1 -> 0 when "a615"=1 and "pnre142"=1
+
+"a615" 0 -> 1 when "pnre142"=1
+
+"a632" 0 -> 1 when "pnre147"=1
+"a632" 1 -> 0 when "csa92"=1 and "pnre327"=1
+"a632" 1 -> 0 when "csa100"=1 and "pnre1275"=1
+"a632" 1 -> 0 when "csa99"=1 and "pnre1276"=1
+"a632" 1 -> 0 when "a849"=1 and "pnre248"=1
+
+"a633" 1 -> 0 when "a642"=1 and "pnre148"=1
+
+"a634" 1 -> 0 when "a642"=1 and "pnre148"=1
+
+"a635" 1 -> 0 when "a642"=1 and "pnre148"=1
+
+"a642" 0 -> 1 when "pnre148"=1
+"a642" 1 -> 0 when "a845"=1 and "pnre245"=1
+
+"a651" 1 -> 0 when "pnre195"=1 and "sa551"=1
+
+"a661" 1 -> 0 when "a663"=1 and "pnre155"=1
+
+"a663" 0 -> 1 when "pnre155"=1
+
+"a665" 0 -> 1 when "pnre623"=1
+"a665" 1 -> 0 when "a672"=1 and "pnre158"=1
+"a665" 1 -> 0 when "a681"=1 and "pnre164"=1
+"a665" 1 -> 0 when "a671"=1 and "pnre157"=1
+
+"a67" 0 -> 1 when "pnre27"=1
+"a67" 1 -> 0 when "a954"=1 and "pnre286"=1
+
+"a671" 0 -> 1 when "pnre157"=1
+"a671" 1 -> 0 when "csa96"=1 and "pnre624"=1
+
+"a672" 0 -> 1 when "pnre158"=1
+
+"a673" 1 -> 0 when "a591"=1 and "pnre159"=1
+
+"a676" 0 -> 1 when "pnre160"=1
+
+"a678" 1 -> 0 when "a681"=1 and "pnre164"=1
+"a678" 1 -> 0 when "a884"=1 and "pnre271"=1
+"a678" 1 -> 0 when "a890"=1 and "pnre275"=1
+
+"a681" 0 -> 1 when "pnre164"=1
+"a681" 1 -> 0 when "a881"=1 and "pnre266"=1
+
+"a682" 1 -> 0 when "a688"=1 and "pnre247"=1
+"a682" 1 -> 0 when "a688"=1 and "pnre165"=1
+"a682" 1 -> 0 when "a689"=1 and "pnre166"=1
+
+"a688" 0 -> 1 when "pnre165"=1
+"a688" 0 -> 1 when "pnre247"=1
+
+"a689" 0 -> 1 when "pnre166"=1
+
+"a691" 1 -> 0 when "a696"=1 and "pnre167"=1
+"a691" 1 -> 0 when "a697"=1 and "pnre168"=1
+
+"a696" 0 -> 1 when "pnre167"=1
+
+"a697" 0 -> 1 when "pnre168"=1
+
+"a7" 0 -> 1 when "pnre290"=1
+"a7" 1 -> 0
+"a7" 1 -> 0 when "csa98"=1 and "pnre1274"=1
+"a7" 1 -> 0 when "csa99"=1 and "pnre1276"=1
+
+"a700" 1 -> 0 when "a701"=1 and "pnre169"=1
+"a700" 1 -> 0 when "a737"=1 and "pnre180"=1
+"a700" 1 -> 0 when "a711"=1 and "pnre170"=1
+"a700" 1 -> 0 when "a713"=1 and "pnre171"=1
+"a700" 1 -> 0 when "a719"=1 and "pnre181"=1
+"a700" 1 -> 0 when "a886"=1 and "pnre269"=1
+
+"a701" 0 -> 1 when "pnre169"=1
+"a701" 1 -> 0
+
+"a711" 0 -> 1 when "pnre170"=1
+
+"a713" 0 -> 1 when "pnre171"=1
+
+"a719" 0 -> 1 when "pnre181"=1
+"a719" 1 -> 0 when "a725"=1 and "pnre174"=1
+
+"a725" 0 -> 1 when "pnre174"=1
+
+"a735" 0 -> 1 when "pnre175"=1
+
+"a737" 0 -> 1 when "pnre180"=1
+"a737" 1 -> 0 when "a735"=1 and "pnre175"=1
+
+"a740" 0 -> 1 when "pnre178"=1
+"a740" 1 -> 0 when "a737"=1 and "pnre180"=1
+"a740" 1 -> 0 when "a752"=1 and "pnre186"=1
+"a740" 1 -> 0 when "csa91"=1 and "pnre325"=1
+
+"a741" 0 -> 1 when "pnre179"=1
+"a741" 1 -> 0 when "a757"=1 and "pnre188"=1
+"a741" 1 -> 0 when "a719"=1 and "pnre181"=1
+"a741" 1 -> 0 when "csa90"=1 and "pnre324"=1
+
+"a752" 0 -> 1 when "pnre186"=1
+"a752" 1 -> 0 when "a753"=1 and "pnre187"=1
+
+"a753" 0 -> 1 when "pnre187"=1
+"a753" 1 -> 0 when "a773"=1 and "a838"=1 and "pnre242"=1
+
+"a757" 0 -> 1 when "pnre188"=1
+"a757" 1 -> 0 when "a758"=1 and "pnre189"=1
+
+"a758" 0 -> 1 when "pnre189"=1
+"a758" 1 -> 0 when "a40"=1 and "a838"=1 and "pnre243"=1
+
+"a760" 1 -> 0 when "csa92"=1 and "pnre327"=1
+"a760" 1 -> 0 when "csa93"=1 and "pnre326"=1
+"a760" 1 -> 0 when "pnre1272"=1 and "sa906"=1
+"a760" 1 -> 0 when "a878"=1 and "pnre262"=1
+"a760" 1 -> 0 when "csa90"=1 and "pnre324"=1
+"a760" 1 -> 0 when "csa91"=1 and "pnre325"=1
+"a760" 1 -> 0 when "pnre604"=1 and "sa543"=1
+
+"a763" 1 -> 0 when "a766"=1 and "pnre190"=1
+
+"a765" 1 -> 0 when "a776"=1 and "pnre191"=1
+
+"a766" 0 -> 1 when "pnre190"=1
+"a766" 1 -> 0 when "a770"=1 and "pnre192"=1
+
+"a770" 0 -> 1 when "pnre192"=1
+"a770" 1 -> 0 when "a773"=1 and "a781"=1 and "pnre194"=1
+
+"a773" 0 -> 1 when "pnre194"=1
+"a773" 0 -> 1 when "pnre242"=1
+"a773" 1 -> 0 when "a11"=1 and "pnre193"=1
+"a773" 1 -> 0 when "a688"=1 and "pnre247"=1
+
+"a776" 0 -> 1 when "pnre191"=1
+"a776" 1 -> 0 when "a770"=1 and "pnre192"=1
+
+"a781" 0 -> 1 when "pnre194"=1
+
+"a785" 1 -> 0 when "a811"=1 and "pnre208"=1
+
+"a791" 0 -> 1 when "pnre216"=1
+"a791" 1 -> 0 when "a871"=1 and "pnre320"=1 and "sa380"=1
+"a791" 1 -> 0 when "csa94"=1 and "pnre328"=1
+
+"a796" 0 -> 1 when "pnre329"=1
+
+"a803" 0 -> 1 when "pnre220"=1
+"a803" 0 -> 1 when "pnre224"=1
+"a803" 0 -> 1 when "pnre236"=1
+"a803" 1 -> 0 when "a812"=1 and "pnre212"=1
+"a803" 1 -> 0 when "a832"=1 and "pnre225"=1
+"a803" 1 -> 0 when "a837"=1 and "pnre239"=1
+
+"a809" 0 -> 1 when "pnre221"=1
+"a809" 0 -> 1 when "pnre227"=1
+"a809" 0 -> 1 when "pnre237"=1
+"a809" 1 -> 0 when "a818"=1 and "pnre230"=1
+"a809" 1 -> 0 when "a832"=1 and "pnre226"=1
+"a809" 1 -> 0 when "a837"=1 and "pnre238"=1
+
+"a811" 0 -> 1 when "pnre208"=1
+
+"a812" 0 -> 1 when "pnre212"=1
+"a812" 0 -> 1 when "pnre218"=1
+"a812" 1 -> 0 when "a825"=1 and "pnre217"=1
+"a812" 1 -> 0 when "a803"=1 and "pnre220"=1
+"a812" 1 -> 0 when "a836"=1 and "pnre241"=1
+
+"a815" 1 -> 0 when "pnre213"=1 and "sa409"=1
+
+"a816" 0 -> 1 when "pnre330"=1
+"a816" 1 -> 0 when "a879"=1 and "pnre265"=1
+
+"a818" 0 -> 1 when "pnre219"=1
+"a818" 0 -> 1 when "pnre230"=1
+"a818" 0 -> 1 when "pnre233"=1
+"a818" 1 -> 0 when "a836"=1 and "pnre232"=1
+"a818" 1 -> 0 when "a791"=1 and "pnre216"=1
+
+"a825" 0 -> 1 when "pnre217"=1
+"a825" 0 -> 1 when "pnre228"=1
+"a825" 1 -> 0 when "a812"=1 and "pnre218"=1
+"a825" 1 -> 0 when "a818"=1 and "pnre219"=1
+"a825" 1 -> 0 when "a832"=1 and "pnre229"=1
+
+"a828" 0 -> 1 when "pnre222"=1
+"a828" 1 -> 0 when "a6"=1 and "pnre223"=1
+
+"a832" 0 -> 1 when "pnre225"=1
+"a832" 0 -> 1 when "pnre226"=1
+"a832" 0 -> 1 when "pnre229"=1
+"a832" 1 -> 0 when "a809"=1 and "pnre227"=1
+"a832" 1 -> 0 when "a825"=1 and "pnre228"=1
+"a832" 1 -> 0 when "a803"=1 and "pnre224"=1
+
+"a836" 0 -> 1 when "pnre232"=1
+"a836" 0 -> 1 when "pnre234"=1
+"a836" 0 -> 1 when "pnre241"=1
+"a836" 1 -> 0 when "a837"=1 and "pnre235"=1
+"a836" 1 -> 0 when "a818"=1 and "pnre233"=1
+
+"a837" 0 -> 1 when "pnre235"=1
+"a837" 0 -> 1 when "pnre238"=1
+"a837" 0 -> 1 when "pnre239"=1
+"a837" 1 -> 0 when "a836"=1 and "pnre234"=1
+"a837" 1 -> 0 when "a803"=1 and "pnre236"=1
+"a837" 1 -> 0 when "a809"=1 and "pnre237"=1
+
+"a838" 0 -> 1 when "pnre242"=1
+"a838" 0 -> 1 when "pnre243"=1
+"a838" 1 -> 0
+
+"a845" 0 -> 1 when "pnre245"=1
+
+"a849" 0 -> 1 when "pnre248"=1
+"a849" 1 -> 0 when "a851"=1 and "a852"=1 and "pnre250"=1
+
+"a851" 0 -> 1 when "pnre250"=1
+"a851" 1 -> 0 when "a39"=1 and "pnre251"=1
+
+"a852" 0 -> 1 when "pnre250"=1
+"a852" 1 -> 0
+
+"a855" 1 -> 0 when "a864"=1 and "pnre254"=1
+"a855" 1 -> 0 when "a863"=1 and "pnre253"=1
+
+"a856" 1 -> 0 when "a858"=1 and "pnre255"=1
+
+"a857" 0 -> 1 when "pnre261"=1
+"a857" 1 -> 0 when "a863"=1 and "pnre253"=1
+"a857" 1 -> 0 when "a869"=1 and "pnre258"=1
+
+"a858" 0 -> 1 when "pnre255"=1
+"a858" 1 -> 0 when "a864"=1 and "pnre254"=1
+
+"a863" 0 -> 1 when "pnre253"=1
+
+"a864" 0 -> 1 when "pnre254"=1
+
+"a869" 0 -> 1 when "pnre258"=1
+"a869" 1 -> 0 when "a857"=1 and "pnre261"=1
+
+"a871" 0 -> 1 when "pnre320"=1
+"a871" 1 -> 0 when "a864"=1
+
+"a875" 1 -> 0 when "a878"=1 and "pnre262"=1
+
+"a878" 0 -> 1 when "pnre262"=1
+
+"a879" 0 -> 1 when "pnre265"=1
+"a879" 1 -> 0 when "pnre264"=1 and "sa550"=1
+
+"a881" 0 -> 1 when "pnre266"=1
+
+"a884" 0 -> 1 when "pnre271"=1
+"a884" 1 -> 0 when "a885"=1 and "pnre268"=1
+
+"a885" 0 -> 1 when "pnre268"=1
+
+"a886" 0 -> 1 when "pnre269"=1
+"a886" 1 -> 0 when "a887"=1 and "pnre270"=1
+
+"a887" 0 -> 1 when "pnre270"=1
+
+"a890" 0 -> 1 when "pnre275"=1
+"a890" 1 -> 0 when "a891"=1 and "pnre273"=1
+
+"a891" 0 -> 1 when "pnre273"=1
+
+"a916" 0 -> 1 when "pnre285"=1
+"a916" 1 -> 0 when "a929"=1 and "pnre283"=1
+
+"a929" 0 -> 1 when "pnre283"=1
+"a929" 1 -> 0 when "a943"=1 and "pnre284"=1
+
+"a943" 0 -> 1 when "pnre284"=1
+
+"a944" 1 -> 0 when "a954"=1 and "pnre286"=1
+
+"a954" 0 -> 1 when "pnre286"=1
+"a954" 1 -> 0 when "a966"=1 and "pnre287"=1
+
+"a966" 0 -> 1 when "pnre287"=1
+
+"a979" 0 -> 1 when "pnre288"=1
+"a979" 1 -> 0 when "a1002"=1 and "pnre289"=1
+
+"a98" 0 -> 1 when "pnre31"=1
+"a98" 1 -> 0 when "a979"=1 and "pnre288"=1
+
+"csa100" 0 -> 1 when "pnre1275"=1
+
+"csa89" 0 -> 1 when "pnre310"=1
+
+"csa90" 0 -> 1 when "pnre324"=1
+
+"csa91" 0 -> 1 when "pnre325"=1
+
+"csa92" 0 -> 1 when "pnre327"=1
+
+"csa93" 0 -> 1 when "pnre326"=1
+
+"csa94" 0 -> 1 when "pnre328"=1
+
+"csa96" 0 -> 1 when "pnre624"=1
+"csa96" 1 -> 0 when "pnre281"=1 and "sa558"=1 and "sa561"=1
+
+"csa97" 0 -> 1 when "pnre1273"=1
+
+"csa98" 0 -> 1 when "pnre1274"=1
+
+"csa99" 0 -> 1 when "pnre1276"=1
+
+"pnre100" 0 -> 1 when "a345"=1
+"pnre100" 1 -> 0 when "a26"=1
+
+"pnre111" 0 -> 1 when "a309"=1 and "a450"=1
+"pnre111" 1 -> 0 when "a462"=1
+
+"pnre112" 0 -> 1 when "a14"=1 and "a27"=1 and "a414"=1
+"pnre112" 1 -> 0 when "a450"=1
+
+"pnre113" 0 -> 1 when "a159"=1 and "a462"=1
+"pnre113" 1 -> 0 when "a475"=1
+
+"pnre121" 0 -> 1 when "a215"=1 and "a450"=1
+"pnre121" 1 -> 0 when "a524"=1
+
+"pnre122" 0 -> 1 when "a475"=1
+"pnre122" 1 -> 0 when "a413"=1 and "a450"=1
+
+"pnre1272" 0 -> 1 when "a33"=1 and "a760"=1
+"pnre1272" 1 -> 0 when "sa906"=1
+
+"pnre1273" 0 -> 1 when "a33"=1 and "a4"=1
+"pnre1273" 1 -> 0 when "csa97"=1
+
+"pnre1274" 0 -> 1 when "a33"=1 and "a7"=1
+"pnre1274" 1 -> 0 when "csa98"=1
+
+"pnre1275" 0 -> 1 when "a4"=1 and "a632"=1
+"pnre1275" 1 -> 0 when "csa100"=1
+
+"pnre1276" 0 -> 1 when "a632"=1 and "a7"=1
+"pnre1276" 1 -> 0 when "csa99"=1
+
+"pnre130" 0 -> 1 when "a278"=1 and "a676"=1
+"pnre130" 1 -> 0 when "a588"=1
+
+"pnre132" 0 -> 1 when "a588"=1 and "a590"=1
+"pnre132" 0 -> 1 when "a589"=1 and "a590"=1
+"pnre132" 0 -> 1 when "a590"=1 and "a676"=1
+"pnre132" 1 -> 0 when "a592"=1
+
+"pnre135" 0 -> 1 when "a588"=1 and "a592"=1
+"pnre135" 0 -> 1 when "a592"=1 and "a615"=1
+"pnre135" 1 -> 0 when "a593"=1
+
+"pnre139" 0 -> 1 when "a280"=1 and "a610"=1
+"pnre139" 1 -> 0 when "a612"=1
+
+"pnre141" 0 -> 1 when "a613"=1
+"pnre141" 1 -> 0 when "a277"=1
+
+"pnre142" 0 -> 1 when "a589"=1 and "a614"=1
+"pnre142" 1 -> 0 when "a615"=1
+
+"pnre147" 0 -> 1 when "a34"=1 and "a845"=1
+"pnre147" 1 -> 0 when "a632"=1
+
+"pnre148" 0 -> 1 when "a633"=1 and "a634"=1 and "a635"=1
+"pnre148" 1 -> 0 when "a642"=1
+
+"pnre155" 0 -> 1 when "a661"=1 and "a662"=1
+"pnre155" 1 -> 0 when "a663"=1
+
+"pnre157" 0 -> 1 when "a590"=1 and "a662"=1 and "a665"=1
+"pnre157" 1 -> 0 when "a671"=1
+
+"pnre158" 0 -> 1 when "a277"=1 and "a665"=1
+"pnre158" 1 -> 0 when "a672"=1
+
+"pnre159" 0 -> 1 when "a277"=1 and "a673"=1
+"pnre159" 1 -> 0 when "a591"=1
+
+"pnre16" 0 -> 1 when "a40"=1 and "a41"=1
+"pnre16" 1 -> 0 when "a32"=1
+
+"pnre160" 0 -> 1 when "a277"=1 and "a591"=1
+"pnre160" 1 -> 0 when "a676"=1
+
+"pnre164" 0 -> 1 when "a665"=1 and "a678"=1
+"pnre164" 1 -> 0 when "a681"=1
+
+"pnre165" 0 -> 1 when "a45"=1 and "a682"=1 and "a690"=0
+"pnre165" 1 -> 0 when "a688"=1
+
+"pnre166" 0 -> 1 when "a40"=1 and "a682"=1
+"pnre166" 1 -> 0 when "a689"=1
+
+"pnre167" 0 -> 1 when "a45"=1 and "a691"=1
+"pnre167" 1 -> 0 when "a696"=1
+
+"pnre168" 0 -> 1 when "a40"=1 and "a691"=1
+"pnre168" 1 -> 0 when "a697"=1
+
+"pnre169" 0 -> 1 when "a632"=1 and "a700"=1
+"pnre169" 1 -> 0 when "a701"=1
+
+"pnre170" 0 -> 1 when "a34"=1 and "a700"=1
+"pnre170" 1 -> 0 when "a711"=1
+
+"pnre171" 0 -> 1 when "a33"=1 and "a700"=1
+"pnre171" 1 -> 0 when "a713"=1
+
+"pnre174" 0 -> 1 when "a719"=1 and "a845"=1
+"pnre174" 1 -> 0 when "a725"=1
+
+"pnre175" 0 -> 1 when "a737"=1 and "a845"=1
+"pnre175" 1 -> 0 when "a735"=1
+
+"pnre178" 0 -> 1 when "a11"=1 and "a700"=1
+"pnre178" 0 -> 1 when "a11"=1 and "a760"=1
+"pnre178" 1 -> 0 when "a740"=1
+
+"pnre179" 0 -> 1 when "a32"=1 and "a700"=1
+"pnre179" 0 -> 1 when "a32"=1 and "a760"=1
+"pnre179" 1 -> 0 when "a741"=1
+
+"pnre180" 0 -> 1 when "a700"=1 and "a740"=1
+"pnre180" 1 -> 0 when "a737"=1
+
+"pnre181" 0 -> 1 when "a700"=1 and "a741"=1
+"pnre181" 1 -> 0 when "a719"=1
+
+"pnre186" 0 -> 1 when "a661"=1 and "a740"=1
+"pnre186" 1 -> 0 when "a752"=1
+
+"pnre187" 0 -> 1 when "a752"=1
+"pnre187" 1 -> 0 when "a753"=1
+
+"pnre188" 0 -> 1 when "a661"=1 and "a741"=1
+"pnre188" 1 -> 0 when "a757"=1
+
+"pnre189" 0 -> 1 when "a757"=1
+"pnre189" 1 -> 0 when "a758"=1
+
+"pnre190" 0 -> 1 when "a763"=1
+"pnre190" 1 -> 0 when "a766"=1
+
+"pnre191" 0 -> 1 when "a45"=1 and "a765"=1
+"pnre191" 1 -> 0 when "a776"=1
+
+"pnre192" 0 -> 1 when "a766"=1 and "a776"=1
+"pnre192" 1 -> 0 when "a770"=1
+
+"pnre193" 0 -> 1 when "a41"=1 and "a773"=1
+"pnre193" 1 -> 0 when "a11"=1
+
+"pnre194" 0 -> 1 when "a770"=1
+"pnre194" 1 -> 0 when "a773"=1 and "a781"=1
+
+"pnre195" 0 -> 1 when "a615"=1 and "a651"=1
+"pnre195" 0 -> 1 when "a651"=1 and "a791"=1
+"pnre195" 1 -> 0 when "sa551"=1
+
+"pnre2" 0 -> 1 when "a22"=1 and "a5"=1
+"pnre2" 1 -> 0 when "a26"=1
+
+"pnre208" 0 -> 1 when "a785"=1
+"pnre208" 1 -> 0 when "a811"=1
+
+"pnre212" 0 -> 1 when "a803"=1
+"pnre212" 1 -> 0 when "a812"=1
+
+"pnre213" 0 -> 1 when "a815"=1
+"pnre213" 1 -> 0 when "sa409"=1
+
+"pnre216" 0 -> 1 when "a818"=1 and "a845"=1
+"pnre216" 1 -> 0 when "a791"=1
+
+"pnre217" 0 -> 1 when "a812"=1 and "a816"=1
+"pnre217" 1 -> 0 when "a825"=1
+
+"pnre218" 0 -> 1 when "a651"=1 and "a825"=1
+"pnre218" 1 -> 0 when "a812"=1
+
+"pnre219" 0 -> 1 when "a816"=1 and "a825"=1
+"pnre219" 1 -> 0 when "a818"=1
+
+"pnre220" 0 -> 1 when "a812"=1
+"pnre220" 1 -> 0 when "a803"=1
+
+"pnre221" 0 -> 1 when "a35"=1 and "a36"=1
+"pnre221" 1 -> 0 when "a809"=1
+
+"pnre222" 0 -> 1 when "a2"=1 and "a3"=1
+"pnre222" 1 -> 0 when "a828"=1
+
+"pnre223" 0 -> 1 when "a1"=1 and "a828"=1
+"pnre223" 1 -> 0 when "a6"=1
+
+"pnre224" 0 -> 1 when "a785"=1 and "a832"=1
+"pnre224" 1 -> 0 when "a803"=1
+
+"pnre225" 0 -> 1 when "a803"=1 and "a815"=1
+"pnre225" 1 -> 0 when "a832"=1
+
+"pnre226" 0 -> 1 when "a785"=1 and "a809"=1
+"pnre226" 1 -> 0 when "a832"=1
+
+"pnre227" 0 -> 1 when "a815"=1 and "a832"=1
+"pnre227" 1 -> 0 when "a809"=1
+
+"pnre228" 0 -> 1 when "a832"=1
+"pnre228" 1 -> 0 when "a825"=1
+
+"pnre229" 0 -> 1 when "a825"=1
+"pnre229" 1 -> 0 when "a832"=1
+
+"pnre23" 0 -> 1 when "a13"=1 and "a2"=1
+"pnre23" 1 -> 0 when "a51"=1
+
+"pnre230" 0 -> 1 when "a809"=1
+"pnre230" 1 -> 0 when "a818"=1
+
+"pnre232" 0 -> 1 when "a651"=1 and "a818"=1
+"pnre232" 1 -> 0 when "a836"=1
+
+"pnre233" 0 -> 1 when "a816"=1 and "a836"=1
+"pnre233" 1 -> 0 when "a818"=1
+
+"pnre234" 0 -> 1 when "a837"=1
+"pnre234" 1 -> 0 when "a836"=1
+
+"pnre235" 0 -> 1 when "a836"=1
+"pnre235" 1 -> 0 when "a837"=1
+
+"pnre236" 0 -> 1 when "a785"=1 and "a837"=1
+"pnre236" 1 -> 0 when "a803"=1
+
+"pnre237" 0 -> 1 when "a815"=1 and "a837"=1
+"pnre237" 1 -> 0 when "a809"=1
+
+"pnre238" 0 -> 1 when "a785"=1 and "a809"=1
+"pnre238" 1 -> 0 when "a837"=1
+
+"pnre239" 0 -> 1 when "a803"=1 and "a815"=1
+"pnre239" 1 -> 0 when "a837"=1
+
+"pnre24" 0 -> 1 when "a51"=1
+"pnre24" 1 -> 0 when "a52"=1
+
+"pnre241" 0 -> 1 when "a812"=1 and "a816"=1
+"pnre241" 1 -> 0 when "a836"=1
+
+"pnre242" 0 -> 1 when "a753"=1
+"pnre242" 1 -> 0 when "a773"=1 and "a838"=1
+
+"pnre243" 0 -> 1 when "a758"=1
+"pnre243" 1 -> 0 when "a40"=1 and "a838"=1
+
+"pnre245" 0 -> 1 when "a642"=1
+"pnre245" 1 -> 0 when "a845"=1
+
+"pnre247" 0 -> 1 when "a682"=1 and "a690"=0 and "a773"=1
+"pnre247" 1 -> 0 when "a688"=1
+
+"pnre248" 0 -> 1 when "a632"=1 and "a661"=1
+"pnre248" 1 -> 0 when "a849"=1
+
+"pnre250" 0 -> 1 when "a849"=1
+"pnre250" 1 -> 0 when "a851"=1 and "a852"=1
+
+"pnre251" 0 -> 1 when "a851"=1 and "sa382"=1
+"pnre251" 1 -> 0 when "a39"=1
+
+"pnre253" 0 -> 1 when "a855"=1 and "a857"=1
+"pnre253" 1 -> 0 when "a863"=1
+
+"pnre254" 0 -> 1 when "a855"=1 and "a858"=1
+"pnre254" 1 -> 0 when "a864"=1
+
+"pnre255" 0 -> 1 when "a791"=1 and "a856"=1
+"pnre255" 1 -> 0 when "a858"=1
+
+"pnre258" 0 -> 1 when "a791"=1 and "a857"=1
+"pnre258" 0 -> 1 when "a857"=1 and "csa89"=1
+"pnre258" 1 -> 0 when "a869"=1
+
+"pnre26" 0 -> 1 when "a60"=1
+"pnre26" 1 -> 0 when "a61"=1
+
+"pnre261" 0 -> 1 when "a869"=1 and "a874"=1
+"pnre261" 1 -> 0 when "a857"=1
+
+"pnre262" 0 -> 1 when "a760"=1 and "a875"=1
+"pnre262" 1 -> 0 when "a878"=1
+
+"pnre264" 0 -> 1 when "a879"=1
+"pnre264" 1 -> 0 when "sa550"=1
+
+"pnre265" 0 -> 1 when "a588"=1 and "a816"=1
+"pnre265" 0 -> 1 when "a615"=1 and "a816"=1
+"pnre265" 1 -> 0 when "a879"=1
+
+"pnre266" 0 -> 1 when "a681"=1
+"pnre266" 1 -> 0 when "a881"=1
+
+"pnre268" 0 -> 1 when "a884"=1
+"pnre268" 1 -> 0 when "a885"=1
+
+"pnre269" 0 -> 1 when "a662"=1 and "a700"=1
+"pnre269" 1 -> 0 when "a886"=1
+
+"pnre27" 0 -> 1 when "a53"=1 and "a61"=1
+"pnre27" 1 -> 0 when "a67"=1
+
+"pnre270" 0 -> 1 when "a886"=1
+"pnre270" 1 -> 0 when "a887"=1
+
+"pnre271" 0 -> 1 when "a5"=1 and "a678"=1
+"pnre271" 1 -> 0 when "a884"=1
+
+"pnre273" 0 -> 1 when "a890"=1
+"pnre273" 1 -> 0 when "a891"=1
+
+"pnre275" 0 -> 1 when "a22"=1 and "a678"=1
+"pnre275" 1 -> 0 when "a890"=1
+
+"pnre281" 0 -> 1 when "csa96"=1
+"pnre281" 1 -> 0 when "sa558"=1 and "sa561"=1
+
+"pnre283" 0 -> 1 when "a164"=1 and "a165"=1 and "a916"=1
+"pnre283" 1 -> 0 when "a929"=1
+
+"pnre284" 0 -> 1 when "a159"=1 and "a929"=1
+"pnre284" 1 -> 0 when "a943"=1
+
+"pnre285" 0 -> 1 when "a162"=1 and "a61"=1
+"pnre285" 1 -> 0 when "a916"=1
+
+"pnre286" 0 -> 1 when "a54"=1 and "a67"=1 and "a944"=1
+"pnre286" 1 -> 0 when "a954"=1
+
+"pnre287" 0 -> 1 when "a25"=1 and "a954"=1
+"pnre287" 1 -> 0 when "a966"=1
+
+"pnre288" 0 -> 1 when "a28"=1 and "a309"=1 and "a98"=1
+"pnre288" 1 -> 0 when "a979"=1
+
+"pnre289" 0 -> 1 when "a632"=1 and "a979"=1
+"pnre289" 0 -> 1 when "a725"=1 and "a979"=1
+"pnre289" 0 -> 1 when "a735"=1 and "a979"=1
+"pnre289" 0 -> 1 when "a979"=1 and "csa90"=1
+"pnre289" 0 -> 1 when "a979"=1 and "csa91"=1
+"pnre289" 1 -> 0 when "a1002"=1
+
+"pnre290" 0 -> 1 when "a1002"=1
+"pnre290" 1 -> 0 when "a25"=1 and "a27"=1 and "a309"=1 and "a348"=1 and "a7"=1
+
+"pnre291" 0 -> 1 when "a598"=1
+"pnre291" 1 -> 0 when "a20"=1 and "a235"=1
+
+"pnre292" 0 -> 1 when "a231"=1 and "a27"=1
+"pnre292" 1 -> 0 when "a235"=1
+
+"pnre297" 0 -> 1 when "a341"=1 and "a52"=1
+"pnre297" 1 -> 0 when "a129"=1
+
+"pnre298" 0 -> 1 when "a524"=1 and "a725"=1
+"pnre298" 0 -> 1 when "a524"=1 and "a735"=1
+"pnre298" 0 -> 1 when "a524"=1 and "csa90"=1
+"pnre298" 0 -> 1 when "a524"=1 and "csa91"=1
+"pnre298" 1 -> 0 when "a27"=1 and "a532"=1
+
+"pnre306" 0 -> 1 when "a37"=1 and "a39"=1
+"pnre306" 1 -> 0 when "a34"=1
+
+"pnre307" 0 -> 1 when "a38"=1 and "a39"=1
+"pnre307" 1 -> 0 when "a33"=1
+
+"pnre308" 0 -> 1 when "a211"=1 and "a212"=1
+"pnre308" 1 -> 0 when "a215"=1
+
+"pnre31" 0 -> 1 when "a25"=1 and "a27"=1
+"pnre31" 1 -> 0 when "a98"=1
+
+"pnre310" 0 -> 1 when "a33"=1 and "a845"=1
+"pnre310" 1 -> 0 when "csa89"=1
+
+"pnre317" 0 -> 1 when "a22"=1 and "sa378"=1
+"pnre317" 1 -> 0 when "sa376"=1
+
+"pnre320" 0 -> 1 when "a791"=1
+"pnre320" 1 -> 0 when "a871"=1 and "sa380"=1
+
+"pnre322" 0 -> 1 when "sa380"=1
+"pnre322" 1 -> 0 when "sa381"=1
+
+"pnre323" 0 -> 1 when "a532"=1 and "a632"=1
+"pnre323" 1 -> 0 when "a529"=1 and "a598"=1
+
+"pnre324" 0 -> 1 when "a741"=1 and "a760"=1
+"pnre324" 1 -> 0 when "csa90"=1
+
+"pnre325" 0 -> 1 when "a740"=1 and "a760"=1
+"pnre325" 1 -> 0 when "csa91"=1
+
+"pnre326" 0 -> 1 when "a33"=1 and "a760"=1
+"pnre326" 1 -> 0 when "csa93"=1
+
+"pnre327" 0 -> 1 when "a632"=1 and "a760"=1
+"pnre327" 1 -> 0 when "csa92"=1
+
+"pnre328" 0 -> 1 when "a791"=1 and "sa906"=1
+"pnre328" 1 -> 0 when "csa94"=1
+
+"pnre329" 0 -> 1 when "a34"=1 and "a651"=1
+"pnre329" 1 -> 0 when "a796"=1
+
+"pnre330" 0 -> 1 when "a791"=1 and "sa409"=1
+"pnre330" 1 -> 0 when "a816"=1
+
+"pnre35" 0 -> 1 when "a185"=1 and "a20"=1
+"pnre35" 1 -> 0 when "a18"=1
+
+"pnre41" 0 -> 1 when "a157"=1 and "a158"=1
+"pnre41" 1 -> 0 when "a162"=1
+
+"pnre55" 0 -> 1 when "a23"=1 and "a231"=1
+"pnre55" 1 -> 0 when "a227"=1
+
+"pnre60" 0 -> 1 when "a22"=1 and "a26"=1
+"pnre60" 1 -> 0 when "a235"=1
+
+"pnre604" 0 -> 1 when "a662"=1 and "a760"=1
+"pnre604" 1 -> 0 when "sa543"=1
+
+"pnre605" 0 -> 1 when "sa543"=1
+"pnre605" 1 -> 0 when "sa544"=1
+
+"pnre618" 0 -> 1 when "sa851"=1
+"pnre618" 1 -> 0 when "a13"=1
+
+"pnre621" 0 -> 1 when "a227"=1 and "a278"=1
+"pnre621" 0 -> 1 when "a227"=1 and "a588"=1
+"pnre621" 1 -> 0 when "a23"=1 and "a602"=1
+
+"pnre622" 0 -> 1 when "a227"=1 and "a277"=1
+"pnre622" 0 -> 1 when "a227"=1 and "a589"=1
+"pnre622" 1 -> 0 when "a23"=1 and "a610"=1
+
+"pnre623" 0 -> 1 when "sa561"=1
+"pnre623" 1 -> 0 when "a665"=1
+
+"pnre624" 0 -> 1 when "a671"=1
+"pnre624" 1 -> 0 when "csa96"=1
+
+"pnre64" 0 -> 1 when "a23"=1 and "a235"=1
+"pnre64" 0 -> 1 when "a235"=1 and "a307"=1
+"pnre64" 0 -> 1 when "a235"=1 and "a308"=1
+"pnre64" 1 -> 0 when "a231"=1
+
+"pnre71" 0 -> 1 when "sa854"=1
+"pnre71" 1 -> 0 when "sa548"=1
+
+"pnre8" 0 -> 1 when "a6"=1
+"pnre8" 1 -> 0 when "a28"=1
+
+"pnre86" 0 -> 1 when "a227"=1 and "csa89"=1
+"pnre86" 1 -> 0 when "a347"=1
+
+"pnre87" 0 -> 1 when "a347"=1
+"pnre87" 1 -> 0 when "a23"=1 and "a30"=1 and "a345"=1
+
+"pnre88" 0 -> 1 when "a13"=1 and "a5"=1
+"pnre88" 1 -> 0 when "a60"=1
+
+"pnre91" 0 -> 1 when "a348"=1 and "a4"=1
+"pnre91" 1 -> 0 when "a359"=1
+
+"pnre92" 0 -> 1 when "a359"=1 and "a725"=1
+"pnre92" 0 -> 1 when "a359"=1 and "a735"=1
+"pnre92" 0 -> 1 when "a359"=1 and "csa90"=1
+"pnre92" 0 -> 1 when "a359"=1 and "csa91"=1
+"pnre92" 1 -> 0 when "a365"=1
+
+"pnre94" 0 -> 1 when "a365"=1
+"pnre94" 1 -> 0 when "a367"=1 and "a370"=1 and "sa850"=1
+
+"pnre95" 0 -> 1 when "sa850"=1
+"pnre95" 1 -> 0 when "a3"=1
+
+"pnre96" 0 -> 1 when "a370"=1
+"pnre96" 1 -> 0 when "a2"=1
+
+"pnre97" 0 -> 1 when "a18"=1 and "a235"=1
+"pnre97" 1 -> 0 when "a14"=1
+
+"pnre98" 0 -> 1 when "a27"=1 and "a30"=1
+"pnre98" 1 -> 0 when "a371"=1
+
+"pnre99" 0 -> 1 when "a371"=1
+"pnre99" 1 -> 0 when "a22"=1
+
+"sa376" 0 -> 1 when "pnre317"=1
+"sa376" 1 -> 0
+
+"sa380" 0 -> 1 when "pnre320"=1
+"sa380" 1 -> 0 when "pnre322"=1 and "sa381"=1
+
+"sa381" 0 -> 1 when "pnre322"=1
+
+"sa409" 0 -> 1 when "pnre213"=1
+"sa409" 1 -> 0 when "a816"=1 and "pnre330"=1
+
+"sa543" 0 -> 1 when "pnre604"=1
+"sa543" 1 -> 0 when "pnre605"=1 and "sa544"=1
+
+"sa544" 0 -> 1 when "pnre605"=1
+
+"sa548" 0 -> 1 when "pnre71"=1
+
+"sa550" 0 -> 1 when "pnre264"=1
+
+"sa551" 0 -> 1 when "pnre195"=1
+
+"sa558" 0 -> 1 when "pnre281"=1
+"sa558" 1 -> 0
+
+"sa561" 0 -> 1 when "pnre281"=1
+"sa561" 1 -> 0 when "a665"=1 and "pnre623"=1
+
+"sa850" 0 -> 1 when "pnre94"=1
+"sa850" 1 -> 0 when "a3"=1 and "pnre95"=1
+
+"sa851" 1 -> 0 when "a13"=1 and "pnre618"=1
+
+"sa854" 1 -> 0 when "pnre71"=1 and "sa548"=1
+
+"sa906" 0 -> 1 when "pnre1272"=1
+"sa906" 1 -> 0 when "csa94"=1 and "pnre328"=1
+
+"G0_G2" [0,1]
+"G0_G2" 0 -> 1 when "a6"=1 and "a809"=1
+initial_state "a3"=1, "a14"=1, "a13"=1, "sa854"=1, "a45"=1, "a40"=1, "a212"=1, "a39"=1, "a634"=1, "a35"=1, "a41"=1, "a36"=1, "a37"=1, "a38"=1, "a211"=1, "a633"=1, "a1"=1, "a4"=1, "a18"=1, "a5"=1, "a2"=1, "a815"=1, "a765"=1, "a678"=1, "a590"=1, "a651"=1, "a700"=1, "a760"=1, "a682"=1, "a691"=1, "a278"=1, "a613"=1, "a673"=1, "a665"=1, "a185"=1, "sa382"=1, "a23"=1, "sa378"=1, "a280"=1, "a874"=1, "a856"=1, "a857"=1, "a855"=1, "a635"=1, "a661"=1, "a662"=1, "a159"=1, "a875"=1, "a158"=1, "a157"=1, "a25"=1, "a309"=1, "a414"=1, "a53"=1, "a54"=1, "a944"=1, "a164"=1, "a165"=1, "a307"=1, "a308"=1, "a341"=1, "a785"=1, "a27"=1,"G0_G2" = 0

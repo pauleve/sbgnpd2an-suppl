@@ -1,0 +1,73 @@
+mdp
+
+// automaton "a"
+module A1
+	// 0=""null""; 1=""glyph0""; 2=""glyph4""; 3=""glyph1""
+	s1: [0..3] init 3;
+
+
+
+
+	[] s1=3 & s2=1 -> (s1'=1);
+	[] s1=3 & s3=1 -> (s1'=2);
+
+
+endmodule
+
+// automaton "glyph2"
+module A4
+	// 0="0"; 1="1"
+	s4: [0..1] init 1;
+
+
+
+
+endmodule
+
+// automaton "glyph10"
+module A2
+	// 0="0"; 1="1"
+	s2: [0..1] init 0;
+
+	[] s2=0 & s1=3 & s5=1 & s3=0 -> (s2'=1);
+
+	[] s2=1 & s1=1 -> (s2'=0);
+
+
+endmodule
+
+// automaton "glyph9"
+module A3
+	// 0="0"; 1="1"
+	s3: [0..1] init 0;
+
+	[] s3=0 & s1=3 & s6=1 & s2=0 & s4=1 -> (s3'=1);
+
+	[] s3=1 & s1=2 & s6=2 -> (s3'=0);
+
+
+endmodule
+
+// automaton "glyph3"
+module A5
+	// 0="0"; 1="1"
+	s5: [0..1] init 1;
+
+
+	[] s5=1 & s1=1 & s2=1 -> (s5'=0);
+
+
+endmodule
+
+// automaton "atp"
+module A6
+	// 0=""null""; 1=""glyph7""; 2=""glyph8""
+	s6: [0..2] init 1;
+
+
+	[] s6=1 & s3=1 -> (s6'=2);
+
+
+
+endmodule
+

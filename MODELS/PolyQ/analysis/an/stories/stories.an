@@ -1,0 +1,70 @@
+(* automata *)
+"E3"	[0, 1]	(* SbgnMolecule(macromolecule,glyph15) *)
+"E3(San1)/nucleus"	[0, 1]	(* SbgnMolecule(macromolecule,glyph17) *)
+"Hsp70"	[0, 1]	(* SbgnMolecule(macromolecule,glyph44) *)
+"Hsp70/nucleus"	[0, 1]	(* SbgnMolecule(macromolecule,glyph45) *)
+"PolyQ aggregates"	[0, 1]	(* SbgnMolecule(macromolecule,glyph18) *)
+"Ub"	[0, 1]	(* SbgnMolecule(simple chemical,glyph24) *)
+"a_glyph31"	[0, 1]	(* SbgnProcess(association,glyph31) *)
+"a_glyph34"	[0, 1]	(* SbgnProcess(association,glyph34) *)
+"d_glyph33"	[0, 1]	(* SbgnProcess(dissociation,glyph33) *)
+"importin"	[0, 1]	(* SbgnMolecule(macromolecule,glyph14) *)
+"misfolded protein-Ub/nucleus"	[0, 1]	(* SbgnMolecule(macromolecule,glyph42) *)
+"nuclear proteasome/nucleus"	[0, 1]	(* SbgnComplex(complex,glyph6) *)
+"p_glyph26"	[0, 1]	(* SbgnProcess(process,glyph26) *)
+"p_glyph27"	[0, 1]	(* SbgnProcess(process,glyph27) *)
+"p_glyph28"	[0, 1]	(* SbgnProcess(process,glyph28) *)
+"p_glyph29"	[0, 1]	(* SbgnProcess(process,glyph29) *)
+"p_glyph30"	[0, 1]	(* SbgnProcess(process,glyph30) *)
+"story1"	["null", "c(PolyQ aggregates:Sis1-N:2)", "Sis1-N:2", "c(Hsp70:misfolded protein-Ub:Sis1-N:2)", "c(Hsp70:misfolded protein-Ub:Sis1-N:2)/nucleus", "Sis1-N:2/nucleus"]
+"story2"	["null", "c(misfolded protein:Hsp70)", "c(misfolded protein-Ub:Hsp70)", "c(Hsp70:misfolded protein-Ub)/juxtanuclear inclusion"]
+
+(* transitions *)
+
+"Hsp70" 0 -> 1 when "p_glyph26"=1
+
+"Hsp70/nucleus" 0 -> 1 when "d_glyph33"=1
+"Hsp70/nucleus" 1 -> 0 when "Hsp70"=1 and "p_glyph26"=1
+
+"PolyQ aggregates" 1 -> 0 when "a_glyph34"=1 and "story1"="c(PolyQ aggregates:Sis1-N:2)"
+
+"Ub" 1 -> 0 when "p_glyph29"=1 and "story2"="c(misfolded protein-Ub:Hsp70)"
+
+"a_glyph31" 0 -> 1 when "a_glyph34"=0 and "d_glyph33"=0 and "p_glyph27"=0 and "p_glyph28"=0 and "p_glyph29"=0 and "p_glyph30"=0 and "story1"="Sis1-N:2" and "story2"="c(misfolded protein-Ub:Hsp70)"
+"a_glyph31" 1 -> 0 when "story1"="c(Hsp70:misfolded protein-Ub:Sis1-N:2)" and "story2"="null"
+
+"a_glyph34" 0 -> 1 when "PolyQ aggregates"=1 and "a_glyph31"=0 and "d_glyph33"=0 and "p_glyph27"=0 and "p_glyph28"=0 and "story1"="Sis1-N:2"
+"a_glyph34" 1 -> 0 when "story1"="c(PolyQ aggregates:Sis1-N:2)"
+
+"d_glyph33" 0 -> 1 when "a_glyph31"=0 and "a_glyph34"=0 and "p_glyph27"=0 and "p_glyph28"=0 and "story1"="c(Hsp70:misfolded protein-Ub:Sis1-N:2)/nucleus"
+"d_glyph33" 1 -> 0 when "Hsp70/nucleus"=1 and "misfolded protein-Ub/nucleus"=1 and "story1"="Sis1-N:2/nucleus"
+
+"misfolded protein-Ub/nucleus" 0 -> 1 when "d_glyph33"=1
+"misfolded protein-Ub/nucleus" 1 -> 0 when "E3(San1)/nucleus"=1 and "nuclear proteasome/nucleus"=1
+
+"p_glyph26" 0 -> 1 when "Hsp70/nucleus"=1
+"p_glyph26" 1 -> 0 when "Hsp70"=1
+
+"p_glyph27" 0 -> 1 when "a_glyph31"=0 and "a_glyph34"=0 and "d_glyph33"=0 and "p_glyph28"=0 and "story1"="Sis1-N:2/nucleus"
+"p_glyph27" 1 -> 0 when "story1"="Sis1-N:2"
+
+"p_glyph28" 0 -> 1 when "a_glyph31"=0 and "a_glyph34"=0 and "d_glyph33"=0 and "importin"=1 and "p_glyph27"=0 and "story1"="c(Hsp70:misfolded protein-Ub:Sis1-N:2)"
+"p_glyph28" 1 -> 0 when "story1"="c(Hsp70:misfolded protein-Ub:Sis1-N:2)/nucleus"
+
+"p_glyph29" 0 -> 1 when "E3"=1 and "Ub"=1 and "a_glyph31"=0 and "p_glyph30"=0 and "story2"="c(misfolded protein:Hsp70)"
+"p_glyph29" 1 -> 0 when "story2"="c(misfolded protein-Ub:Hsp70)"
+
+"p_glyph30" 0 -> 1 when "a_glyph31"=0 and "p_glyph29"=0 and "story2"="c(misfolded protein-Ub:Hsp70)"
+"p_glyph30" 1 -> 0 when "story2"="c(Hsp70:misfolded protein-Ub)/juxtanuclear inclusion"
+
+"story1" "Sis1-N:2" -> "c(Hsp70:misfolded protein-Ub:Sis1-N:2)" when "a_glyph31"=1
+"story1" "Sis1-N:2" -> "c(PolyQ aggregates:Sis1-N:2)" when "a_glyph34"=1
+"story1" "Sis1-N:2/nucleus" -> "Sis1-N:2" when "p_glyph27"=1
+"story1" "c(Hsp70:misfolded protein-Ub:Sis1-N:2)" -> "c(Hsp70:misfolded protein-Ub:Sis1-N:2)/nucleus" when "p_glyph28"=1
+"story1" "c(Hsp70:misfolded protein-Ub:Sis1-N:2)/nucleus" -> "Sis1-N:2/nucleus" when "d_glyph33"=1
+
+"story2" "c(misfolded protein-Ub:Hsp70)" -> "c(Hsp70:misfolded protein-Ub)/juxtanuclear inclusion" when "p_glyph30"=1
+"story2" "c(misfolded protein-Ub:Hsp70)" -> "null" when "a_glyph31"=1
+"story2" "c(misfolded protein:Hsp70)" -> "c(misfolded protein-Ub:Hsp70)" when "p_glyph29"=1
+
+initial_state "importin"=1, "E3"=1, "E3(San1)/nucleus"=1, "Ub"=1, "story2"="c(misfolded protein:Hsp70)", "PolyQ aggregates"=1, "story1"="Sis1-N:2", "nuclear proteasome/nucleus"=1

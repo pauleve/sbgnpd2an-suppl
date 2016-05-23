@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph compartmentOrder="-45.0" id="glyph0" class="compartment">
+            <label text="juxtanuclear inclusion">
+                <bbox y="864.0" x="148.0" h="18.0" w="144.0"/>
+            </label>
+            <bbox y="610.0" x="55.0" h="280.0" w="330.0"/>
+        </glyph>
+        <glyph compartmentOrder="-44.0" id="glyph1" class="compartment">
+            <label text="nucleus">
+                <bbox y="1224.0" x="901.0" h="18.0" w="58.0"/>
+            </label>
+            <bbox y="670.0" x="445.0" h="580.0" w="970.0"/>
+        </glyph>
+        <glyph id="glyph15" class="macromolecule">
+            <label text="E3"/>
+            <bbox y="230.0" x="241.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph id="glyph2" class="complex">
+            <bbox y="70.0" x="740.0" h="180.0" w="150.0"/>
+            <glyph id="glyph16" class="macromolecule">
+                <label text="PolyQ aggregates"/>
+                <bbox y="90.0" x="745.0" h="60.0" w="140.0"/>
+            </glyph>
+            <glyph id="glyph10" class="macromolecule multimer">
+                <label text="Sis1"/>
+                <bbox y="170.0" x="761.0" h="60.0" w="108.0"/>
+                <glyph id="glyph10a" class="unit of information">
+                    <label text="N:2"/>
+                    <bbox y="162.0" x="772.5" h="16.0" w="31.0"/>
+                </glyph>
+            </glyph>
+        </glyph>
+        <glyph compartmentRef="glyph0" id="glyph35" class="complex">
+            <bbox y="660.0" x="125.0" h="160.0" w="190.0"/>
+            <glyph id="glyph37" class="macromolecule">
+                <label text="Hsp70"/>
+                <bbox y="750.0" x="175.0" h="60.0" w="80.0"/>
+            </glyph>
+            <glyph id="glyph36" class="macromolecule">
+                <label text="misfolded protein"/>
+                <bbox y="680.0" x="145.0" h="60.0" w="140.0"/>
+                <glyph id="glyph36a" class="state variable">
+                    <state value="Ub"/>
+                    <bbox y="670.0" x="165.0" h="20.0" w="30.0"/>
+                </glyph>
+            </glyph>
+        </glyph>
+        <glyph id="glyph14" class="macromolecule">
+            <label text="importin"/>
+            <bbox y="590.0" x="986.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph id="glyph44" class="macromolecule">
+            <label text="Hsp70"/>
+            <bbox y="990.0" x="270.0" h="60.0" w="80.0"/>
+        </glyph>
+        <glyph id="glyph41" class="macromolecule multimer">
+            <label text="Sis1"/>
+            <clone/>
+            <bbox y="1120.0" x="256.0" h="60.0" w="108.0"/>
+            <glyph id="glyph41a" class="unit of information">
+                <label text="N:2"/>
+                <bbox y="1112.0" x="267.5" h="16.0" w="31.0"/>
+            </glyph>
+        </glyph>
+        <glyph compartmentRef="glyph1" id="glyph22" class="source and sink">
+            <bbox y="1160.0" x="1285.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph id="glyph18" class="macromolecule">
+            <label text="PolyQ aggregates"/>
+            <bbox y="50.0" x="485.0" h="60.0" w="140.0"/>
+        </glyph>
+        <glyph id="glyph34" class="association">
+            <bbox y="148.0" x="673.0" h="24.0" w="24.0"/>
+            <port y="160.0" x="709.0" id="glyph34.2"/>
+            <port y="160.0" x="661.0" id="glyph34.1"/>
+        </glyph>
+        <glyph id="glyph8" class="macromolecule multimer">
+            <label text="Sis1"/>
+            <clone/>
+            <bbox y="280.0" x="501.0" h="60.0" w="108.0"/>
+            <glyph id="glyph8a" class="unit of information">
+                <label text="N:2"/>
+                <bbox y="272.0" x="512.5" h="16.0" w="31.0"/>
+            </glyph>
+        </glyph>
+        <glyph id="glyph31" class="association">
+            <bbox y="448.0" x="634.0" h="24.0" w="24.0"/>
+            <port y="460.0" x="670.0" id="glyph31.2"/>
+            <port y="460.0" x="622.0" id="glyph31.1"/>
+        </glyph>
+        <glyph id="glyph24" class="simple chemical">
+            <label text="Ub"/>
+            <bbox y="320.0" x="205.0" h="40.0" w="40.0"/>
+        </glyph>
+        <glyph id="glyph4" class="complex">
+            <bbox y="380.0" x="50.0" h="160.0" w="170.0"/>
+            <glyph id="glyph12" class="macromolecule">
+                <label text="misfolded protein"/>
+                <bbox y="400.0" x="65.0" h="60.0" w="140.0"/>
+                <glyph id="glyph12a" class="state variable">
+                    <bbox y="390.0" x="90.0" h="20.0" w="20.0"/>
+                </glyph>
+            </glyph>
+            <glyph id="glyph20" class="macromolecule">
+                <label text="Hsp70"/>
+                <bbox y="470.0" x="95.0" h="60.0" w="80.0"/>
+            </glyph>
+        </glyph>
+        <glyph id="glyph29" class="process">
+            <bbox y="447.5" x="281.5" h="25.0" w="25.0"/>
+            <port y="460.0" x="319.0" id="glyph29.2"/>
+            <port y="460.0" x="269.0" id="glyph29.1"/>
+        </glyph>
+        <glyph compartmentRef="glyph1" id="glyph38" class="complex">
+            <bbox y="700.0" x="795.0" h="240.0" w="170.0"/>
+            <glyph id="glyph46" class="macromolecule">
+                <label text="Hsp70"/>
+                <bbox y="790.0" x="845.0" h="60.0" w="80.0"/>
+            </glyph>
+            <glyph id="glyph43" class="macromolecule">
+                <label text="misfolded protein"/>
+                <bbox y="720.0" x="815.0" h="60.0" w="140.0"/>
+                <glyph id="glyph43a" class="state variable">
+                    <state value="Ub"/>
+                    <bbox y="710.0" x="835.0" h="20.0" w="30.0"/>
+                </glyph>
+            </glyph>
+            <glyph id="glyph40" class="macromolecule multimer">
+                <label text="Sis1"/>
+                <bbox y="870.0" x="831.0" h="60.0" w="108.0"/>
+                <glyph id="glyph40a" class="unit of information">
+                    <label text="N:2"/>
+                    <bbox y="862.0" x="842.5" h="16.0" w="31.0"/>
+                </glyph>
+            </glyph>
+        </glyph>
+        <glyph id="glyph33" orientation="vertical" class="dissociation">
+            <bbox y="958.0" x="858.0" h="24.0" w="24.0"/>
+            <port y="994.0" x="870.0" id="glyph33.2"/>
+            <port y="946.0" x="870.0" id="glyph33.1"/>
+        </glyph>
+        <glyph compartmentRef="glyph1" id="glyph42" class="macromolecule">
+            <label text="misfolded protein"/>
+            <bbox y="1160.0" x="855.0" h="60.0" w="140.0"/>
+            <glyph id="glyph42a" class="state variable">
+                <state value="Ub"/>
+                <bbox y="1150.0" x="875.0" h="20.0" w="30.0"/>
+            </glyph>
+        </glyph>
+        <glyph id="glyph25" class="process">
+            <bbox y="1177.5" x="1142.5" h="25.0" w="25.0"/>
+            <port y="1190.0" x="1180.0" id="glyph25.2"/>
+            <port y="1190.0" x="1130.0" id="glyph25.1"/>
+        </glyph>
+        <glyph compartmentRef="glyph1" id="glyph45" class="macromolecule">
+            <label text="Hsp70"/>
+            <bbox y="990.0" x="525.0" h="60.0" w="80.0"/>
+        </glyph>
+        <glyph id="glyph26" class="process">
+            <bbox y="1007.5" x="427.5" h="25.0" w="25.0"/>
+            <port y="1020.0" x="415.0" id="glyph26.1"/>
+            <port y="1020.0" x="465.0" id="glyph26.2"/>
+        </glyph>
+        <glyph compartmentRef="glyph1" id="glyph39" class="macromolecule multimer">
+            <label text="Sis1"/>
+            <bbox y="1120.0" x="511.0" h="60.0" w="108.0"/>
+            <glyph id="glyph39a" class="unit of information">
+                <label text="N:2"/>
+                <bbox y="1112.0" x="522.5" h="16.0" w="31.0"/>
+            </glyph>
+        </glyph>
+        <glyph id="glyph27" class="process">
+            <bbox y="1137.5" x="427.5" h="25.0" w="25.0"/>
+            <port y="1150.0" x="415.0" id="glyph27.1"/>
+            <port y="1150.0" x="465.0" id="glyph27.2"/>
+        </glyph>
+        <glyph compartmentRef="glyph1" id="glyph17" class="macromolecule">
+            <label text="E3(San1)"/>
+            <bbox y="980.0" x="1011.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph1" id="glyph6" class="complex">
+            <label text="nuclear proteasome">
+                <bbox y="1001.0" x="1197.5" h="18.0" w="135.0"/>
+            </label>
+            <bbox y="970.0" x="1180.0" h="80.0" w="170.0"/>
+        </glyph>
+        <glyph id="glyph23" orientation="vertical" class="and">
+            <bbox y="1089.0" x="1134.0" h="42.0" w="42.0"/>
+            <port y="1152.0" x="1155.0" id="glyph23.2"/>
+            <port y="1068.0" x="1155.0" id="glyph23.1"/>
+        </glyph>
+        <glyph id="glyph3" class="complex">
+            <bbox y="340.0" x="790.0" h="240.0" w="170.0"/>
+            <glyph id="glyph21" class="macromolecule">
+                <label text="Hsp70"/>
+                <bbox y="430.0" x="835.0" h="60.0" w="80.0"/>
+            </glyph>
+            <glyph id="glyph13" class="macromolecule">
+                <label text="misfolded protein"/>
+                <bbox y="360.0" x="805.0" h="60.0" w="140.0"/>
+                <glyph id="glyph13a" class="state variable">
+                    <state value="Ub"/>
+                    <bbox y="350.0" x="825.0" h="20.0" w="30.0"/>
+                </glyph>
+            </glyph>
+            <glyph id="glyph65" class="macromolecule multimer">
+                <label text="Sis1"/>
+                <bbox y="510.0" x="826.0" h="60.0" w="108.0"/>
+                <glyph id="glyph65a" class="unit of information">
+                    <label text="N:2"/>
+                    <bbox y="502.0" x="837.5" h="16.0" w="31.0"/>
+                </glyph>
+            </glyph>
+        </glyph>
+        <glyph id="glyph28" orientation="vertical" class="process">
+            <bbox y="607.5" x="867.5" h="25.0" w="25.0"/>
+            <port y="645.0" x="880.0" id="glyph28.2"/>
+            <port y="595.0" x="880.0" id="glyph28.1"/>
+        </glyph>
+        <glyph id="glyph5" class="complex">
+            <bbox y="380.0" x="380.0" h="160.0" w="170.0"/>
+            <glyph id="glyph11" class="macromolecule">
+                <label text="misfolded protein"/>
+                <bbox y="400.0" x="395.0" h="60.0" w="140.0"/>
+                <glyph id="glyph11a" class="state variable">
+                    <state value="Ub"/>
+                    <bbox y="390.0" x="415.0" h="20.0" w="30.0"/>
+                </glyph>
+            </glyph>
+            <glyph id="glyph19" class="macromolecule">
+                <label text="Hsp70"/>
+                <bbox y="470.0" x="425.0" h="60.0" w="80.0"/>
+            </glyph>
+        </glyph>
+        <glyph id="glyph30" orientation="vertical" class="process">
+            <bbox y="597.5" x="357.5" h="25.0" w="25.0"/>
+            <port y="635.0" x="370.0" id="glyph30.2"/>
+            <port y="585.0" x="370.0" id="glyph30.1"/>
+        </glyph>
+        <arc target="glyph5" source="glyph29.2" id="arc0" class="production">
+            <start y="460.0" x="319.0"/>
+            <end y="460.0" x="380.0"/>
+        </arc>
+        <arc target="glyph29" source="glyph15" id="arc1" class="catalysis">
+            <start y="290.0" x="294.85"/>
+            <end y="447.5" x="294.0625"/>
+        </arc>
+        <arc target="glyph3" source="glyph31.2" id="arc2" class="production">
+            <start y="460.0" x="670.0"/>
+            <end y="460.0" x="790.0"/>
+        </arc>
+        <arc target="glyph2" source="glyph34.2" id="arc3" class="production">
+            <start y="160.0" x="709.0"/>
+            <end y="160.0" x="740.0"/>
+        </arc>
+        <arc target="glyph35" source="glyph30.2" id="arc4" class="production">
+            <start y="635.0" x="370.0"/>
+            <end y="662.2857" x="315.0"/>
+        </arc>
+        <arc target="glyph38" source="glyph28.2" id="arc5" class="production">
+            <start y="645.0" x="880.0"/>
+            <end y="700.0" x="880.0"/>
+        </arc>
+        <arc target="glyph28" source="glyph14" id="arc6" class="stimulation">
+            <start y="620.0" x="986.0"/>
+            <end y="620.0" x="892.5"/>
+        </arc>
+        <arc target="glyph42" source="glyph33.2" id="arc7" class="production">
+            <start y="994.0" x="870.0"/>
+            <end y="1160.0" x="917.5"/>
+        </arc>
+        <arc target="glyph45" source="glyph33.2" id="arc8" class="production">
+            <start y="994.0" x="870.0"/>
+            <end y="1013.4426" x="605.0"/>
+        </arc>
+        <arc target="glyph39" source="glyph33.2" id="arc9" class="production">
+            <start y="994.0" x="870.0"/>
+            <end y="1120.0" x="615.8333"/>
+        </arc>
+        <arc target="glyph44" source="glyph26.1" id="arc10" class="production">
+            <start y="1020.0" x="415.0"/>
+            <end y="1020.0" x="350.0"/>
+        </arc>
+        <arc target="glyph41" source="glyph27.1" id="arc11" class="production">
+            <start y="1150.0" x="415.0"/>
+            <end y="1150.0" x="364.0"/>
+        </arc>
+        <arc target="glyph22" source="glyph25.2" id="arc12" class="production">
+            <start y="1190.0" x="1180.0"/>
+            <end y="1190.0" x="1285.0"/>
+        </arc>
+        <arc target="glyph25" source="glyph23.2" id="arc13" class="stimulation">
+            <start y="1152.0" x="1155.0"/>
+            <end y="1177.5" x="1155.0"/>
+        </arc>
+        <arc target="glyph34.1" source="glyph18" id="arc14" class="consumption">
+            <start y="110.0" x="594.75"/>
+            <end y="160.0" x="661.0"/>
+        </arc>
+        <arc target="glyph34.1" source="glyph8" id="arc15" class="consumption">
+            <start y="280.0" x="576.2"/>
+            <end y="160.0" x="661.0"/>
+        </arc>
+        <arc target="glyph31.1" source="glyph8" id="arc16" class="consumption">
+            <start y="340.0" x="568.4"/>
+            <end y="460.0" x="622.0"/>
+        </arc>
+        <arc target="glyph31.1" source="glyph5" id="arc17" class="consumption">
+            <start y="460.0" x="550.0"/>
+            <end y="460.0" x="622.0"/>
+        </arc>
+        <arc target="glyph29.1" source="glyph24" id="arc18" class="consumption">
+            <start y="358.77753" x="231.88509"/>
+            <end y="460.0" x="269.0"/>
+        </arc>
+        <arc target="glyph29.1" source="glyph4" id="arc19" class="consumption">
+            <start y="460.0" x="220.0"/>
+            <end y="460.0" x="269.0"/>
+        </arc>
+        <arc target="glyph33.1" source="glyph38" id="arc20" class="consumption">
+            <start y="940.0" x="870.4762"/>
+            <end y="946.0" x="870.0"/>
+        </arc>
+        <arc target="glyph25.1" source="glyph42" id="arc21" class="consumption">
+            <start y="1190.0" x="995.0"/>
+            <end y="1190.0" x="1130.0"/>
+        </arc>
+        <arc target="glyph26.2" source="glyph45" id="arc22" class="consumption">
+            <start y="1020.0" x="525.0"/>
+            <end y="1020.0" x="465.0"/>
+        </arc>
+        <arc target="glyph27.2" source="glyph39" id="arc23" class="consumption">
+            <start y="1150.0" x="511.0"/>
+            <end y="1150.0" x="465.0"/>
+        </arc>
+        <arc target="glyph23.1" source="glyph17" id="arc24" class="logic arc">
+            <start y="1040.0" x="1111.5518"/>
+            <end y="1068.0" x="1155.0"/>
+        </arc>
+        <arc target="glyph23.1" source="glyph6" id="arc25" class="logic arc">
+            <start y="1050.0" x="1189.138"/>
+            <end y="1068.0" x="1155.0"/>
+        </arc>
+        <arc target="glyph28.1" source="glyph3" id="arc26" class="consumption">
+            <start y="580.0" x="879.44446"/>
+            <end y="595.0" x="880.0"/>
+        </arc>
+        <arc target="glyph30.1" source="glyph5" id="arc27" class="consumption">
+            <start y="540.0" x="404.2"/>
+            <end y="585.0" x="370.0"/>
+        </arc>
+    </map>
+</sbgn>

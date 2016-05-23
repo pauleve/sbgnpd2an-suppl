@@ -1,0 +1,107 @@
+#!/bin/python
+
+import sys
+from collections import defaultdict
+import xml.etree.ElementTree as ET
+
+cdfile = sys.argv[1]
+sbgnfile = sys.argv[2]
+ofile = sys.argv[3]
+
+tree = ET.parse(cdfile)
+root = tree.getroot()
+
+dspecies = {}
+dstates = {}
+dcompartments = {}
+dcomplexes = defaultdict(list)
+lmulti = []
+
+ns = {'default_cd':'http://www.sbml.org/sbml/level2',
+        'celldesigner':'http://www.sbml.org/2001/ns/celldesigner',
+        'default_sbgnml':'http://sbgn.org/libsbgn/0.2'}
+
+ET.register_namespace("",ns["default_sbgnml"])
+
+#GET IDs, COMPARTMENTS, COMPLEXES
+for alias in root.findall(".//celldesigner:speciesAlias",ns):
+    dspecies[alias.get("id")] = alias.get("species")
+    dcompartments[alias.get("id")] = alias.get("compartmentAlias")
+    complexAlias = alias.get("complexSpeciesAlias")
+    if complexAlias is not None:
+        dcomplexes[complexAlias].append(alias.get("id"))
+for alias in root.findall(".//celldesigner:complexSpeciesAlias",ns):
+    dspecies[alias.get("id")] = alias.get("species")
+    dcompartments[alias.get("id")] = alias.get("compartmentAlias")
+
+#GET STATES
+for id in dspecies.keys():
+    specy = root.findall(".//celldesigner:species[@id='"+dspecies[id]+"']",ns)
+    if len(specy)!=0:
+        specy = specy[0]
+        lstates = specy.findall(".//celldesigner:modification",ns)
+        if len(lstates)!=0:
+            dstates[id] = [(state.get("residue"),state.get("state")) for state in lstates]
+
+for id in dspecies.keys():
+    specy = root.findall(".//default_cd:species[@id='"+dspecies[id]+"']",ns)
+    if len(specy)!=0:
+        specy = specy[0]
+        lstates = specy.findall(".//celldesigner:modification",ns)
+        if len(lstates)!=0:
+            dstates[id] = [(state.get("residue"),state.get("state")) for state in lstates]
+
+#GET MULTIMERS
+for id in dspecies.keys():
+    specy = root.findall(".//default_cd:species[@id='"+dspecies[id]+"']",ns)
+    if len(specy)!=0:
+        specy = specy[0]
+        if len(specy.findall(".//celldesigner:homodimer",ns))!=0:
+            lmulti.append(id)
+
+tree = ET.parse(sbgnfile)
+root = tree.getroot()
+
+#WRITE COMPARTMENTS
+for id in dcompartments.keys():
+    glyph = root[0].findall("default_sbgnml:glyph[@id='"+id+"']",ns)[0]
+    if dcompartments[id] is not None:
+        glyph.attrib["compartmentRef"] = dcompartments[id]
+
+#WRITE STATES
+for id in dstates.keys():
+    i = 97
+    glyph = root[0].findall("default_sbgnml:glyph[@id='"+id+"']",ns)[0]
+    for res_state in dstates[id]:
+        res = res_state[0]
+        state = res_state[1]
+        sv = ET.Element("{http://sbgn.org/libsbgn/0.2}glyph",{"id":id+chr(i), "class":"state variable"})
+        bbox = ET.Element("{http://sbgn.org/libsbgn/0.2}bbox",{"y":"0","x":"0","h":"0","w":"0"})
+        if state == "phosphorylated":
+            state = "P"
+        elif state == "acetylated":
+            state = "Ac"
+        else:
+            state = "?"
+        s = ET.Element("{http://sbgn.org/libsbgn/0.2}state",{"variable":res,"value":state})
+        sv.append(s)
+        sv.append(bbox)
+        i = i+1
+        glyph.append(sv)
+
+#WRITE MULTI
+for id in lmulti:
+    glyph = root[0].findall("default_sbgnml:glyph[@id='"+id+"']",ns)[0]
+    if glyph.attrib["class"] == "macromolecule":
+        glyph.attrib["class"] = "macromolecule multimer"
+
+#WRITE COMPLEXES
+for id in dcomplexes.keys():
+    complex = root[0].findall("default_sbgnml:glyph[@id='"+id+"']",ns)[0]
+    for sid in dcomplexes[id]:
+        species = root[0].findall("default_sbgnml:glyph[@id='"+sid+"']",ns)[0]
+        root[0].remove(species)
+        complex.append(species)
+
+#WRITE FILE
+tree.write(ofile, encoding = "UTF-8", xml_declaration=True)

@@ -1,0 +1,11 @@
+"a" ["null", "glyph0", "glyph4", "glyph1"]
+"atp" ["null", "glyph7", "glyph8"]
+"glyph10" [0, 1]
+"glyph2" [0, 1]
+"glyph3" [0, 1]
+"glyph9" [0, 1]
+
+"a" "glyph1" -> "glyph4" when "glyph9"=1
+"glyph9" 0 -> 1 when "a"="glyph1" and "atp"="glyph7" and "glyph10"=0 and "glyph2"=1
+
+initial_context "a"="glyph1", "atp"="glyph7", "glyph2"=1, "glyph3"=1

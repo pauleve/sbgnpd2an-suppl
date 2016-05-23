@@ -1,0 +1,39 @@
+#!/bin/python
+import sys
+import argparse
+import colorsys
+import itertools
+from fractions import Fraction
+
+parser = argparse.ArgumentParser()
+parser.add_argument("infile")
+parser.add_argument("--output", "-o")
+parser.add_argument("--initial-state")
+
+args = parser.parse_args()
+
+infile = args.infile
+if args.output:
+    output = args.output
+else:
+    if ".cd.xml" in infile:
+        output = infile.split(".cd.xml")[0]+".ini.cd.xml"
+    else:
+        output = infile+".ini.cd.xml"
+if args.initial_state:
+    ini = args.initial_state.split(",")
+    ifile = open(infile)
+    ofile = open(output,"w")
+    string = ""
+    inNode = False
+    for line in ifile:
+        if "<celldesigner:complexSpeciesAlias id=" in line or "<celldesigner:speciesAlias id=" in line:
+            inNode = True
+            id = line.split('"')[1]
+        if "</celldesigner:complexSpeciesAlias>" in line or "</celldesigner:speciesAlias>" in line:
+            inNode = False
+        if inNode is True and id in ini and "singleLine" in line:
+            line = line.split('"')[0] + '"5.0"' + line.split('"')[2]
+        ofile.write(line)
+    ifile.close()
+    ofile.close()

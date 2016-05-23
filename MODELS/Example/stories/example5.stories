@@ -1,0 +1,10 @@
+SET 0
+STORY 0
+glyph3,glyph0
+STORY 1
+glyph1,glyph4
+
+SET 1
+STORY 0
+glyph1,glyph4,glyph0
+

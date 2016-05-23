@@ -1,0 +1,108 @@
+#!/bin/python
+
+import sys
+import argparse
+import colorsys
+import itertools
+from fractions import Fraction
+
+def zenos_dichotomy():
+    for k in itertools.count():
+        yield Fraction(1,2**k)
+
+def getfracs():
+    """
+    [Fraction(0, 1), Fraction(1, 2), Fraction(1, 4), Fraction(3, 4), Fraction(1, 8), Fraction(3, 8), Fraction(5, 8), Fraction(7, 8), Fraction(1, 16), Fraction(3, 16), ...]
+    [0.0, 0.5, 0.25, 0.75, 0.125, 0.375, 0.625, 0.875, 0.0625, 0.1875, ...]
+    """
+    yield 0
+    for k in zenos_dichotomy():
+        i = k.denominator # [1,2,4,8,16,...]
+        for j in range(1,i,2):
+            yield Fraction(j,i)
+
+bias = lambda x: (math.sqrt(x/3)/Fraction(2,3)+Fraction(1,3))/Fraction(6,5) # can be used for the v in hsv to map linear values 0..1 to something that looks equidistant
+
+def genhsv(h):
+    for s in [Fraction(6,10)]: # optionally use range
+        for v in [Fraction(8,10),Fraction(5,10)]: # could use range too
+            yield (h, s, v) # use bias for v here if you use range
+
+genrgb = lambda x: colorsys.hsv_to_rgb(*x)
+
+flatten = itertools.chain.from_iterable
+
+gethsvs = lambda: flatten(map(genhsv,getfracs()))
+
+getrgbs = lambda: map(genrgb, gethsvs())
+
+def genhtml(x):
+    uint8tuple = map(lambda y: int(y*255), x)
+    return uint8tuple
+#    return "rgb({},{},{})".format(*uint8tuple)
+
+gethtmlcolors = lambda: map(genhtml, getrgbs())
+
+def isInStory(epn, stories):
+    i = -1
+    for j, story in enumerate(stories):
+        if epn in story:
+            i = j
+            break
+    return i
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("input")
+parser.add_argument("--output", "-o")
+parser.add_argument("--story", action="append")
+
+args = parser.parse_args()
+
+input = args.input
+if args.output:
+    output = args.output
+else:
+    if ".graphml" in input:
+        output = input.split(".graphml")[0]+".colored.graphml"
+    else:
+        output = input+".colored.graphml"
+if args.story:
+    colors = [tuple(c) for c in list(itertools.islice(gethtmlcolors(), len(args.story)))]
+    stories = [s.split(",") for s in args.story]
+    ifile = open(input)
+    ofile = open(output,"w")
+    string = ""
+    inNode = False
+    for line in ifile:
+        if "<node" in line:
+            inNode = True
+        if "</node" in line:
+            inNode = False
+        if inNode is True:
+            if "key=\"na6\"" in line:
+                green = line
+            elif "key=\"na7\"" in line:
+                red = line
+            elif "key=\"na5\"" in line:
+                blue = line
+            else:
+                ofile.write(line)
+                if "key=\"na0\"" in line:
+                    epn = line.split(">")[1].split("<")[0]
+                    print(epn)
+                    i = isInStory(epn, stories)
+                    if i != -1:
+                        color = colors[i]
+                        red = red.split(">")[0]+">"+str(color[0])+"<"+red.split("<")[2]
+                        green = green.split(">")[0]+">"+str(color[1])+"<"+red.split("<")[2]
+                        blue = blue.split(">")[0]+">"+str(color[2])+"<"+red.split("<")[2]
+                    ofile.write(red)
+                    ofile.write(blue)
+                    ofile.write(green)
+        else:
+            ofile.write(line)
+    ifile.close()
+    ofile.close()
+
+

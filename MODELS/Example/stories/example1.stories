@@ -1,0 +1,68 @@
+SET 0
+STORY 0
+glyph1,glyph8
+
+SET 1
+STORY 1
+glyph4,glyph7
+STORY 0
+glyph1,glyph8
+
+SET 2
+STORY 1
+glyph4,glyph7
+STORY 0
+glyph1,glyph0
+
+SET 3
+STORY 1
+glyph7,glyph8
+STORY 0
+glyph4,glyph1
+
+SET 4
+STORY 1
+glyph7,glyph8
+STORY 0
+glyph1,glyph0
+
+SET 5
+STORY 1
+glyph7,glyph8
+STORY 0
+glyph4,glyph1,glyph0
+
+SET 6
+STORY 1
+glyph4,glyph7
+STORY 0
+glyph1,glyph0,glyph8
+
+SET 7
+STORY 1
+glyph1,glyph8
+STORY 0
+glyph3,glyph0
+
+SET 8
+STORY 1
+glyph4,glyph7
+STORY 0
+glyph3,glyph0
+
+SET 9
+STORY 1
+glyph1,glyph8
+STORY 0
+glyph3,glyph0
+STORY 2
+glyph4,glyph7
+
+SET 10
+STORY 1
+glyph4,glyph1
+STORY 0
+glyph3,glyph0
+STORY 2
+glyph7,glyph8
+

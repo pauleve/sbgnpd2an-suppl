@@ -1,0 +1,42 @@
+digraph {
+	/* places */
+	node    [style=filled fillcolor=gray90 shape=circle];
+	p6      [label="c=1"];
+	p5      [label="c=0"]; /* initial */
+	p4      [label="b=1"];
+	p3      [label="b=0"]; /* initial */
+	p2      [label="a=2"];
+	p1      [label="a=1"];
+	p0      [label="a=0"]; /* initial */
+
+	/* transitions */
+	node    [shape=box style=filled fillcolor=grey60];
+	t4      [label="b 1 -> 0 when a=0 and c=0"];
+	t3      [label="a 0 -> 1 when b=1"];
+	t2      [label="a 1 -> 2 when c=1"];
+	t1      [label="c 0 -> 1 when a=1"];
+
+	/* postset of each transition */
+	t4      -> p5;
+	t4      -> p3;
+	t4      -> p0;
+	t3      -> p4;
+	t3      -> p1;
+	t2      -> p6;
+	t2      -> p2;
+	t1      -> p6;
+	t1      -> p1;
+
+	/* preset and context of each transition */
+	p5      -> t4;
+	p4      -> t4;
+	p0      -> t4;
+	p4      -> t3;
+	p0      -> t3;
+	p6      -> t2;
+	p1      -> t2;
+	p5      -> t1;
+	p1      -> t1;
+
+	graph   [label="4 transitions\n7 places"];
+}

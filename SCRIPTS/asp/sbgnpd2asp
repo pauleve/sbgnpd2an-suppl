@@ -1,0 +1,21 @@
+#!/bin/python
+import argparse
+from Entity import *
+from EntityClazz import EntityClazz
+from Utils import *
+from PDNetwork import *
+
+usage = "usage: %sbgnpd2asp FILE"
+parser = argparse.ArgumentParser()
+parser.add_argument("input")
+parser.add_argument("-o")
+
+args = parser.parse_args()
+
+infile = args.input
+
+net = SBGN.readSBGNML(infile)
+if args.o:
+    SBGN.writeCG2ASP(net, args.o)
+else:
+    print(SBGN.getCG2ASP(net))

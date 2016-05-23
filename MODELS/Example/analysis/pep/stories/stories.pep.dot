@@ -1,0 +1,82 @@
+digraph {
+	/* places */
+	node    [fixedsize=true width=1 style=filled fillcolor=gray90 shape=circle];
+	p14     [label="T_adp"];
+	p13     [label="T_atp" fillcolor=dodgerblue3]; /* initial */
+	p12     [label="T_null"];
+	p11     [label="b1" fillcolor=dodgerblue3]; /* initial */
+	p10     [label="b0"];
+	p9      [label="p1"];
+	p8      [label="p0" fillcolor=dodgerblue3]; /* initial */
+	p7      [label="q1"];
+	p6      [label="q0" fillcolor=dodgerblue3]; /* initial */
+	p5      [label="m1" fillcolor=dodgerblue3]; /* initial */
+	p4      [label="m0"];
+	p3      [label="S_a" fillcolor=dodgerblue3]; /* initial */
+	p2      [label="S_aP"];
+	p1      [label="S_c"];
+	p0      [label="S_null"];
+
+	/* transitions */
+	node    [shape=box style=filled fillcolor=grey60];
+	t8      [];
+	t7      [];
+	t6      [];
+	t5      [];
+	t4      [];
+	t3      [];
+	t2      [];
+	t1      [];
+
+	/* postset of each transition */
+	t8      -> p6;
+	t8      -> p1;
+	t7      -> p14;
+	t7      -> p8;
+	t7      -> p2;
+	t6      -> p11;
+	t6      -> p8;
+	t6      -> p7;
+	t6      -> p3;
+	t5      -> p14;
+	t5      -> p9;
+	t4      -> p9;
+	t4      -> p2;
+	t3      -> p10;
+	t3      -> p7;
+	t3      -> p1;
+	t2      -> p7;
+	t2      -> p1;
+	t1      -> p13;
+	t1      -> p9;
+	t1      -> p6;
+	t1      -> p5;
+	t1      -> p3;
+
+	/* preset and context of each transition */
+	p7      -> t8;
+	p1      -> t8;
+	p14     -> t7;
+	p9      -> t7;
+	p2      -> t7;
+	p11     -> t6;
+	p8      -> t6;
+	p6      -> t6;
+	p3      -> t6;
+	p13     -> t5;
+	p9      -> t5;
+	p9      -> t4;
+	p3      -> t4;
+	p11     -> t3;
+	p7      -> t3;
+	p1      -> t3;
+	p7      -> t2;
+	p3      -> t2;
+	p13     -> t1;
+	p8      -> t1;
+	p6      -> t1;
+	p5      -> t1;
+	p3      -> t1;
+
+	graph   [label="8 transitions\n15 places"];
+}

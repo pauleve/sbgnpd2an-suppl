@@ -1,0 +1,24 @@
+digraph SG {
+1350 [label="a=glyph4,atp=glyph7,glyph10=0,glyph2=1,glyph3=1,glyph9=1"];
+1350 -> 2374;
+1303 [label="a=glyph1,atp=glyph7,glyph10=1,glyph2=1,glyph3=1,glyph9=0"];
+1303 -> 1301;
+1285 [label="a=glyph0,atp=glyph7,glyph10=0,glyph2=1,glyph3=1,glyph9=0"];
+2374 [label="a=glyph4,atp=glyph8,glyph10=0,glyph2=1,glyph3=1,glyph9=1"];
+2374 -> 2310;
+1029 [label="a=glyph0,atp=glyph7,glyph10=0,glyph2=1,glyph3=0,glyph9=0"];
+2310 [label="a=glyph4,atp=glyph8,glyph10=0,glyph2=1,glyph3=1,glyph9=0"];
+2375 [label="a=glyph1,atp=glyph8,glyph10=0,glyph2=1,glyph3=1,glyph9=1"];
+2375 -> 2374;
+1351 [label="a=glyph1,atp=glyph7,glyph10=0,glyph2=1,glyph3=1,glyph9=1"];
+1351 -> 1350;
+1351 -> 2375;
+1287 [label="a=glyph1,atp=glyph7,glyph10=0,glyph2=1,glyph3=1,glyph9=0"];
+1287 -> 1351;
+1287 -> 1303;
+1301 [label="a=glyph0,atp=glyph7,glyph10=1,glyph2=1,glyph3=1,glyph9=0"];
+1301 -> 1045;
+1301 -> 1285;
+1045 [label="a=glyph0,atp=glyph7,glyph10=1,glyph2=1,glyph3=0,glyph9=0"];
+1045 -> 1029;
+}

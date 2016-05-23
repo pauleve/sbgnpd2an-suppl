@@ -1,0 +1,229 @@
+mdp
+
+// automaton "a_glyph34"
+module A1
+	// 0="0"; 1="1"
+	s1: [0..1] init 0;
+
+	[] s1=0 & s2=1 & s3=0 & s4=0 & s5=0 & s6=0 & s7=2 -> (s1'=1);
+
+	[] s1=1 & s7=1 -> (s1'=0);
+
+
+endmodule
+
+// automaton "nuclear proteasome/nucleus"
+module A8
+	// 0="0"; 1="1"
+	s8: [0..1] init 1;
+
+
+
+
+endmodule
+
+// automaton "p_glyph26"
+module A9
+	// 0="0"; 1="1"
+	s9: [0..1] init 0;
+
+	[] s9=0 & s10=1 -> (s9'=1);
+
+	[] s9=1 & s11=1 -> (s9'=0);
+
+
+endmodule
+
+// automaton "d_glyph33"
+module A4
+	// 0="0"; 1="1"
+	s4: [0..1] init 0;
+
+	[] s4=0 & s3=0 & s1=0 & s5=0 & s6=0 & s7=4 -> (s4'=1);
+
+	[] s4=1 & s10=1 & s12=1 & s7=5 -> (s4'=0);
+
+
+endmodule
+
+// automaton "E3(San1)/nucleus"
+module A13
+	// 0="0"; 1="1"
+	s13: [0..1] init 1;
+
+
+
+
+endmodule
+
+// automaton "p_glyph28"
+module A6
+	// 0="0"; 1="1"
+	s6: [0..1] init 0;
+
+	[] s6=0 & s3=0 & s1=0 & s4=0 & s14=1 & s5=0 & s7=3 -> (s6'=1);
+
+	[] s6=1 & s7=4 -> (s6'=0);
+
+
+endmodule
+
+// automaton "a_glyph31"
+module A3
+	// 0="0"; 1="1"
+	s3: [0..1] init 0;
+
+	[] s3=0 & s1=0 & s4=0 & s5=0 & s6=0 & s15=0 & s16=0 & s7=2 & s17=2 -> (s3'=1);
+
+	[] s3=1 & s7=3 & s17=0 -> (s3'=0);
+
+
+endmodule
+
+// automaton "PolyQ aggregates"
+module A2
+	// 0="0"; 1="1"
+	s2: [0..1] init 1;
+
+
+	[] s2=1 & s1=1 & s7=1 -> (s2'=0);
+
+
+endmodule
+
+// automaton "E3"
+module A18
+	// 0="0"; 1="1"
+	s18: [0..1] init 1;
+
+
+
+
+endmodule
+
+// automaton "Hsp70/nucleus"
+module A10
+	// 0="0"; 1="1"
+	s10: [0..1] init 0;
+
+	[] s10=0 & s4=1 -> (s10'=1);
+
+	[] s10=1 & s11=1 & s9=1 -> (s10'=0);
+
+
+endmodule
+
+// automaton "p_glyph29"
+module A15
+	// 0="0"; 1="1"
+	s15: [0..1] init 0;
+
+	[] s15=0 & s18=1 & s19=1 & s3=0 & s16=0 & s17=1 -> (s15'=1);
+
+	[] s15=1 & s17=2 -> (s15'=0);
+
+
+endmodule
+
+// automaton "story1"
+module A7
+	// 0=""null""; 1=""c(PolyQ aggregates:Sis1-N:2)""; 2=""Sis1-N:2""; 3=""c(Hsp70:misfolded protein-Ub:Sis1-N:2)""; 4=""c(Hsp70:misfolded protein-Ub:Sis1-N:2)/nucleus""; 5=""Sis1-N:2/nucleus""
+	s7: [0..5] init 2;
+
+
+
+	[] s7=2 & s1=1 -> (s7'=1);
+	[] s7=2 & s3=1 -> (s7'=3);
+
+	[] s7=3 & s6=1 -> (s7'=4);
+
+	[] s7=4 & s4=1 -> (s7'=5);
+
+	[] s7=5 & s5=1 -> (s7'=2);
+
+
+endmodule
+
+// automaton "p_glyph27"
+module A5
+	// 0="0"; 1="1"
+	s5: [0..1] init 0;
+
+	[] s5=0 & s3=0 & s1=0 & s4=0 & s6=0 & s7=5 -> (s5'=1);
+
+	[] s5=1 & s7=2 -> (s5'=0);
+
+
+endmodule
+
+// automaton "importin"
+module A14
+	// 0="0"; 1="1"
+	s14: [0..1] init 1;
+
+
+
+
+endmodule
+
+// automaton "Hsp70"
+module A11
+	// 0="0"; 1="1"
+	s11: [0..1] init 0;
+
+	[] s11=0 & s9=1 -> (s11'=1);
+
+
+
+endmodule
+
+// automaton "p_glyph30"
+module A16
+	// 0="0"; 1="1"
+	s16: [0..1] init 0;
+
+	[] s16=0 & s3=0 & s15=0 & s17=2 -> (s16'=1);
+
+	[] s16=1 & s17=3 -> (s16'=0);
+
+
+endmodule
+
+// automaton "Ub"
+module A19
+	// 0="0"; 1="1"
+	s19: [0..1] init 1;
+
+
+	[] s19=1 & s15=1 & s17=2 -> (s19'=0);
+
+
+endmodule
+
+// automaton "misfolded protein-Ub/nucleus"
+module A12
+	// 0="0"; 1="1"
+	s12: [0..1] init 0;
+
+	[] s12=0 & s4=1 -> (s12'=1);
+
+	[] s12=1 & s13=1 & s8=1 -> (s12'=0);
+
+
+endmodule
+
+// automaton "story2"
+module A17
+	// 0=""null""; 1=""c(misfolded protein:Hsp70)""; 2=""c(misfolded protein-Ub:Hsp70)""; 3=""c(Hsp70:misfolded protein-Ub)/juxtanuclear inclusion""
+	s17: [0..3] init 1;
+
+
+	[] s17=1 & s15=1 -> (s17'=2);
+
+	[] s17=2 & s3=1 -> (s17'=0);
+	[] s17=2 & s16=1 -> (s17'=3);
+
+
+
+endmodule
+

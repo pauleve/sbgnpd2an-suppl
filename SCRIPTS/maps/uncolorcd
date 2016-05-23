@@ -1,0 +1,40 @@
+#!/bin/python
+import sys
+import argparse
+import colorsys
+import itertools
+from fractions import Fraction
+
+def zenos_dichotomy():
+    for k in itertools.count():
+        yield Fraction(1,2**k)
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("infile")
+parser.add_argument("--output", "-o")
+
+args = parser.parse_args()
+
+infile = args.infile
+if args.output:
+    output = args.output
+else:
+    if ".cd.xml" in infile:
+        output = infile.split(".cd.xml")[0]+".uncolored.cd.xml"
+    else:
+        output = infile+".uncolored.cd.xml"
+ifile = open(infile)
+ofile = open(output,"w")
+inNode = False
+for line in ifile:
+    if "<celldesigner:complexSpeciesAlias id=" in line or "<celldesigner:speciesAlias id=" in line:
+        inNode = True
+    if "</celldesigner:complexSpeciesAlias>" in line or "</celldesigner:speciesAlias>" in line:
+        inNode = False
+    if inNode is True and "color" in line:
+        colorhex = "ffffffff"
+        line = line.split('"')[0]+'"'+colorhex+'"'+' scheme="Color"/>\n'
+    ofile.write(line)
+ifile.close()
+ofile.close()

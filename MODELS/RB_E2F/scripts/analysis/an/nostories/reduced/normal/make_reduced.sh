@@ -1,0 +1,42 @@
+./reducePhases.py --nostories --log logs/nostories/normal/reducePhases.log --dir MODELS/RB_E2F/analysis/an/nostories/reduced/normal/ -i MODELS/RB_E2F/analysis/an/nostories/nostories.an phases
+
+echo "---------------"
+echo "G0"
+echo "---------------"
+pint-export -i MODELS/RB_E2F/analysis/an/nostories/nostories.an --reduce-for-goal a359=1 -o MODELS/RB_E2F/analysis/an/nostories/reduced/normal/nostories_G0_a359=1.reduced.an
+pint-export -i MODELS/RB_E2F/analysis/an/nostories/nostories.an --reduce-for-goal a6=1 -o MODELS/RB_E2F/analysis/an/nostories/reduced/normal/nostories_G0_a6=1.reduced.an
+echo "---------------"
+echo "earlyG0"
+echo "---------------"
+pint-export -i MODELS/RB_E2F/analysis/an/nostories/nostories.an --reduce-for-goal a735=1 -o MODELS/RB_E2F/analysis/an/nostories/reduced/normal/nostories_earlyG1_a735=1.reduced.an
+pint-export -i MODELS/RB_E2F/analysis/an/nostories/nostories.an --reduce-for-goal a450=1 -o MODELS/RB_E2F/analysis/an/nostories/reduced/normal/nostories_earlyG1_a450=1.reduced.an
+pint-export -i MODELS/RB_E2F/analysis/an/nostories/nostories.an --reduce-for-goal a462=1 -o MODELS/RB_E2F/analysis/an/nostories/reduced/normal/nostories_earlyG1_a462=1.reduced.an
+pint-export -i MODELS/RB_E2F/analysis/an/nostories/nostories.an --reduce-for-goal a725=1 -o MODELS/RB_E2F/analysis/an/nostories/reduced/normal/nostories_earlyG1_a725=1.reduced.an
+pint-export -i MODELS/RB_E2F/analysis/an/nostories/nostories.an --reduce-for-goal a475=1 -o MODELS/RB_E2F/analysis/an/nostories/reduced/normal/nostories_earlyG1_a475=1.reduced.an
+echo "---------------"
+echo "lateG1"
+echo "---------------"
+pint-export -i MODELS/RB_E2F/analysis/an/nostories/nostories.an --reduce-for-goal a532=1 -o MODELS/RB_E2F/analysis/an/nostories/reduced/normal/nostories_lateG1_a532=1.reduced.an
+pint-export -i MODELS/RB_E2F/analysis/an/nostories/nostories.an --reduce-for-goal a524=1 -o MODELS/RB_E2F/analysis/an/nostories/reduced/normal/nostories_lateG1_a524=1.reduced.an
+echo "---------------"
+echo "earlyS"
+echo "---------------"
+pint-export -i MODELS/RB_E2F/analysis/an/nostories/nostories.an --reduce-for-goal a632=1 -o MODELS/RB_E2F/analysis/an/nostories/reduced/normal/nostories_earlyS_a632=1.reduced.an
+echo "---------------"
+echo "lateS"
+echo "---------------"
+pint-export -i MODELS/RB_E2F/analysis/an/nostories/nostories.an --reduce-for-goal csa89=1 -o MODELS/RB_E2F/analysis/an/nostories/reduced/normal/nostories_lateS_csa89=1.reduced.an
+echo "---------------"
+echo "G2"
+echo "---------------"
+pint-export -i MODELS/RB_E2F/analysis/an/nostories/nostories.an --reduce-for-goal a803=1 -o MODELS/RB_E2F/analysis/an/nostories/reduced/normal/nostories_G2_a803=1.reduced.an
+pint-export -i MODELS/RB_E2F/analysis/an/nostories/nostories.an --reduce-for-goal a837=1 -o MODELS/RB_E2F/analysis/an/nostories/reduced/normal/nostories_G2_a837=1.reduced.an
+pint-export -i MODELS/RB_E2F/analysis/an/nostories/nostories.an --reduce-for-goal a809=1 -o MODELS/RB_E2F/analysis/an/nostories/reduced/normal/nostories_G2_a809=1.reduced.an
+pint-export -i MODELS/RB_E2F/analysis/an/nostories/nostories.an --reduce-for-goal a832=1 -o MODELS/RB_E2F/analysis/an/nostories/reduced/normal/nostories_G2_a832=1.reduced.an
+echo "---------------"
+echo "M"
+echo "---------------"
+pint-export -i MODELS/RB_E2F/analysis/an/nostories/nostories.an --reduce-for-goal sa551=1 -o MODELS/RB_E2F/analysis/an/nostories/reduced/normal/nostories_M_sa551=1.reduced.an
+pint-export -i MODELS/RB_E2F/analysis/an/nostories/nostories.an --reduce-for-goal a791=1 -o MODELS/RB_E2F/analysis/an/nostories/reduced/normal/nostories_M_a791=1.reduced.an
+pint-export -i MODELS/RB_E2F/analysis/an/nostories/nostories.an --reduce-for-goal a816=1 -o MODELS/RB_E2F/analysis/an/nostories/reduced/normal/nostories_M_a816=1.reduced.an
+pint-export -i MODELS/RB_E2F/analysis/an/nostories/nostories.an --reduce-for-goal a858=1 -o MODELS/RB_E2F/analysis/an/nostories/reduced/normal/nostories_M_a858=1.reduced.an

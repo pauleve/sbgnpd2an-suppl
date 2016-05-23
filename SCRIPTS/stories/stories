@@ -1,0 +1,159 @@
+#!/bin/python
+import subprocess
+import sys
+import os
+import argparse
+import copy
+
+import libsbgnpy.libsbgn as libsbgn
+from libsbgnpy.libsbgnTypes import *
+
+def getModels(s):
+    models = []
+    new_model = False
+    for line in s.split("\n"):
+        if line[0:11] == "SATISFIABLE":
+            break
+        if line[0:6] == "Answer":
+            new_model = True
+            continue
+        if new_model is True and line != "":
+            model = sorted(line.split(" "))
+            models.append(model)
+            new_model = False
+    return models
+
+def getSetsOfStories(models):
+    sets = set()
+    for model in models:
+        preSet = []
+        for literal in model:
+            if "gather" in literal:
+                pair = literal[:-1].split("gather(")[1].split(",")
+                added = False
+                for s in preSet:
+                    if pair[0] in s:
+                        s.add(pair[1])
+                        added = True
+                        break
+                    elif pair[1] in s:
+                        s.add(pair[0])
+                        added = True
+                        break
+                if added is False:
+                    preSet.append(set([pair[0],pair[1]]))
+        postSet = []
+        for s in preSet:
+            added = False
+            for q in postSet:
+                if len(s & q) != 0:
+                    q = s | q
+                    added = True
+                    break
+            if added is False:
+                postSet.append(s)
+        postSet = [frozenset(s) for s in postSet]
+        sets.add(frozenset(postSet))
+    return sets
+
+def getMaximalSets(sets):
+    maxSets = copy.copy(sets)
+    for s in sets:
+        for q in sets:
+            if q != s and q.issuperset(s):
+                maxSets.remove(s)
+                break
+    return maxSets
+
+def getFinalSets(sets):
+    finalSets = copy.copy(sets)
+    for q in sets:
+        for s in sets:
+            if s != q:
+                for qq in q:
+                    finalSet = False
+                    for ss in s:
+                        if ss.issuperset(qq):
+                            finalSet = True
+                            break
+                    if finalSet is False:
+                        break
+                if finalSet is True:
+                    finalSets.remove(q)
+                    break
+    return finalSets
+
+def printSetsOfStories(sets, dlabels = None):
+    for i, s in enumerate(sets):
+        print("SET {0}".format(i+1))
+        for j, q in enumerate(s):
+            print("STORY {0}".format(j+1))
+            if dlabels is not None:
+                print(",".join([dlabels[e] for e in q]))
+            else:
+                print(",".join(q))
+        print("")
+toAdd = False
+
+usage = "usage: %stories [options] FILE"
+parser = argparse.ArgumentParser()
+parser.add_argument("input")
+parser.add_argument("--story", action="append")
+parser.add_argument("--initial-state")
+parser.add_argument("--clabel",action = "store_true")
+parser.add_argument("--max", help = "1:maximal sets, 2: final sets, 3:maximal set w.r.t the number of EPNs")
+parser.add_argument("--plabel", help = "print stories with EPNs labels")
+
+args = parser.parse_args()
+
+infile = args.input
+
+if args.initial_state is not None or args.story is not None:
+    f = open(infile.split(".sbgn")[0]+"_add.tmp.asp","w")
+    if args.initial_state is not None:
+        for epn in args.initial_state.split(","):
+            f.write("ini("+epn+").\n")
+    if args.story is not None:
+        stories = [s.split(",") for s in args.story]
+        for story in stories:
+            for i in range(len(story)-1):
+                f.write("gather("+story[i]+","+story[i+1]+").\n")
+    f.close()
+    toAdd = True
+
+basedir = os.path.dirname(os.path.realpath(__file__))
+
+l=["/home/rougny/CircadianClock/clingo","-n","0",os.path.join(basedir,"stories.asp"),infile]
+if toAdd is True:
+    l.append(infile.split(".sbgn")[0]+"_add.tmp.asp")
+if args.clabel is True:
+    l.append(os.path.join(basedir,"clabel.asp"))
+
+if args.max == "3":
+    l.append(os.path.join(basedir,"max.asp"))
+    l.append("--quiet=1")
+
+try:
+    res = subprocess.check_output(l,universal_newlines=True)
+except subprocess.CalledProcessError as clingo_exp:
+    models = getModels(clingo_exp.output)
+    sets = getSetsOfStories(models)
+    if args.max == "1":
+        sets = getMaximalSets(sets)
+    elif args.max == "2":
+        sets = getFinalSets(sets)
+    if args.plabel:
+        dlabels = {}
+        sbgn = libsbgn.parse(args.plabel, silence=True)
+        sbgnMap = sbgn.get_map()
+        for glyph in sbgnMap.get_glyph():
+            if glyph.get_label() is not None:
+                dlabels[glyph.get_id()] = glyph.get_label().get_text()
+        printSetsOfStories(sets, dlabels)
+    else:
+        printSetsOfStories(sets)
+
+if toAdd is True:
+    pass
+    os.remove(infile.split(".sbgn")[0]+"_add.tmp.asp")
+

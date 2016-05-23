@@ -1,0 +1,33 @@
+(* automata *)
+"ADP"	[0, 1]	(* SbgnMolecule(simple chemical,glyph8) *)
+"ATP"	[0, 1]	(* SbgnMolecule(simple chemical,glyph7) *)
+"a"	[0, 1]	(* SbgnMolecule(macromolecule,glyph1) *)
+"a-P"	[0, 1]	(* SbgnMolecule(macromolecule,glyph4) *)
+"a_glyph10"	[0, 1]	(* SbgnProcess(association,glyph10) *)
+"b"	[0, 1]	(* SbgnMolecule(macromolecule,glyph3) *)
+"c(a:b)"	[0, 1]	(* SbgnComplex(complex,glyph0) *)
+"m"	[0, 1]	(* SbgnMolecule(macromolecule,glyph2) *)
+"p_glyph9"	[0, 1]	(* SbgnProcess(process,glyph9) *)
+
+(* transitions *)
+
+"ADP" 0 -> 1 when "p_glyph9"=1
+
+"ATP" 1 -> 0 when "ADP"=1 and "a-P"=1 and "p_glyph9"=1
+
+"a" 1 -> 0 when "ADP"=1 and "a-P"=1 and "p_glyph9"=1
+"a" 1 -> 0 when "a_glyph10"=1 and "c(a:b)"=1
+
+"a-P" 0 -> 1 when "p_glyph9"=1
+
+"a_glyph10" 0 -> 1 when "a"=1 and "b"=1
+"a_glyph10" 1 -> 0 when "c(a:b)"=1
+
+"b" 1 -> 0 when "a_glyph10"=1 and "c(a:b)"=1
+
+"c(a:b)" 0 -> 1 when "a_glyph10"=1
+
+"p_glyph9" 0 -> 1 when "ATP"=1 and "a"=1 and "m"=1
+"p_glyph9" 1 -> 0 when "ADP"=1 and "a-P"=1
+
+initial_state "a"=1, "b"=1, "ATP"=1, "m"=1

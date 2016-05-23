@@ -1,0 +1,35 @@
+G0,earlyG1,lateG1,earlyS,lateS,G2,M # ordre des phases du cycle cellulaire
+
+# Quand il y a plusieur états pour une phase, on considère que le système est dans la phase si un de ses états est vérifié (disjonction)
+
+G0:e2f4=a6 # complexe e2f4-p130-dp2
+G0:e2f4=a359 # complexe e2f4-p107-dp2
+
+earlyG1:cdk4=a735 # complexe Pcdk4-cyclinD1-p27Kip1
+earlyG1:cdk6=a725 # complexe Pcdk6-cyclinD1-p27Kip1
+#earlyG1:e2f1=a14 # complexe e2f1-prb-dp1: in G0, e2f4=a14 so maybe not this one
+earlyG1:e2f1=a450 # complexe e2f1-prb-dp1-swi_snf-hdac1
+earlyG1:e2f1=a462 # complexe e2f1-prb-dp1-swi_snf-hdac1-suv39h1
+earlyG1:e2f1=a475 # complexe e2f1-prb-dp1-swi_snf-hdac1-suv39h1-hp1gamma
+
+# lateG1:cdk2=a632 # complexe Pcdk2-cyclinE1: moved to earlyS
+lateG1:e2f1=a524 # complexe e2f1-Pprb-dp1-swi_snf-hdac1
+lateG1:e2f1=a532 # complexe e2f1-PPprb-dp1-swi_snf-hdac1
+
+earlyS:cdk2=a632 # complexe Pcdk2-cyclinE1
+
+lateS:cdk2=csa89 # complexe Pcdk2-cyclinA2 ?
+# S:cdk2=csa97 # complexe cdk2-cyclinA2-p107: yes but inactive
+# S:cdk2=csa93 # complexe Pcdk2-cyclinA2-p21Cip: yes but inactive
+# S:cdk2=a713 # complexe cdk2-cyclinA2-p27kip1: yes but inactive
+# S:cdk2=a33 # complexe cdk2-cyclinA2: yes but inactive
+
+G2:cdc2=a837 # complexe Pcdc2-cyclinB1
+G2:cdc2=a809 # complexe cdc2-cyclinB1
+G2:cdc2=a832 # complexe Pcdc2-cyclinB1
+G2:cdc2=a803 # complexe Pcdc2-cyclinB1
+
+M:cdc25c=a816 # Pcdc25c, active form
+M:wee1=sa551 # Pwee1, inactive form
+M:cdc20=a858 # Pcdc20, active form
+M:cdc2=a791 # complexe Pcdc2-cyclinB1

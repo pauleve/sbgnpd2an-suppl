@@ -1,0 +1,24 @@
+(* automata *)
+"a"	["null", "glyph0", "glyph4", "glyph1"]
+"atp"	["null", "glyph7", "glyph8"]
+"glyph10"	[0, 1]	(* SbgnProcess(association,glyph10) *)
+"glyph2"	[0, 1]	(* SbgnMolecule(macromolecule,glyph2) *)
+"glyph3"	[0, 1]	(* SbgnMolecule(macromolecule,glyph3) *)
+"glyph9"	[0, 1]	(* SbgnProcess(process,glyph9) *)
+
+(* transitions *)
+
+"a" "glyph1" -> "glyph0" when "glyph10"=1
+"a" "glyph1" -> "glyph4" when "glyph9"=1
+
+"atp" "glyph7" -> "glyph8" when "glyph9"=1
+
+"glyph10" 0 -> 1 when "a"="glyph1" and "glyph3"=1 and "glyph9"=0
+"glyph10" 1 -> 0 when "a"="glyph0"
+
+"glyph3" 1 -> 0 when "a"="glyph0" and "glyph10"=1
+
+"glyph9" 0 -> 1 when "a"="glyph1" and "atp"="glyph7" and "glyph10"=0 and "glyph2"=1
+"glyph9" 1 -> 0 when "a"="glyph4" and "atp"="glyph8"
+
+initial_state "a"="glyph1", "glyph3"=1, "atp"="glyph7", "glyph2"=1
